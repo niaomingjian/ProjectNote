@@ -25,5 +25,5 @@
 - 混合字段 ： 在多个字段中确定其信息，如名和姓。这就像是在包含了所有要检索的字段的大字段中进行搜索一样，有点类似于_field字段。
 
 # 4. 最佳字段 #
-[最佳字段](https://github.com/niaomingjian/ProjectNote/blob/master/elasticsearch/note.md#3-单字符串查询)
+[最佳字段](https://github.com/niaomingjian/ProjectNote/blob/master/elasticsearch/note.md#1-match-query匹配查询)
 
