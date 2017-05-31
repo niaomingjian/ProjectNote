@@ -1,5 +1,5 @@
 
-# Match Query（匹配查询） #
+# 1. Match Query（匹配查询） #
 ## Links ##
 1. [Elasticsearch: 权威指南 » 深入搜索 » 全文搜索 » 匹配查询](http://106.186.120.253/preview/match-query.html)
 2. [Elasticsearch: The Definitive Guide [2.x] » Search in Depth » Full-Text Search » The match Query](https://www.elastic.co/guide/en/elasticsearch/guide/2.x/match-query.html)
@@ -8,13 +8,13 @@
 1.它是一个高级 全文查询 ，这表示它既能处理**全文字段**，又能处理**精确字段**。  
 2.一个单词项时，match查询执行的是单个底层 **term 查询**。
 
-# 多字符串查询 #
+# 2. 多字符串查询 #
 ## Links ##
 1. [多字符串查询](http://106.186.120.253/preview/multi-query-strings.html)
 ## Notes ##
 1.最简单的多字段查询可以将搜索项映射到具体的字段。将不同查询字符串映射到不同字段。
 
-# 单字符串查询 #
+# 3. 单字符串查询 #
 ## Links ##
 1. [单字符串查询](http://106.186.120.253/preview/_single_query_string.html)
 ## Notes ##
