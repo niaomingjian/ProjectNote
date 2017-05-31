@@ -40,4 +40,6 @@
 ## Notes ##
 1. 使用**most_fields**类型的multi_match多匹配查询来实现多数字段匹配
 
-
+# 6. 混合字段 #
+## Links ##
+## Notes ##
