@@ -27,6 +27,10 @@
 # 4. 最佳字段 #
 ## Links ##
 1. [最佳字段](http://106.186.120.253/preview/_best_fields.html)
-1. [最佳字段查询调优](http://106.186.120.253/preview/_tuning_best_fields_queries.html)
+2. [最佳字段查询调优](http://106.186.120.253/preview/_tuning_best_fields_queries.html)
+3. [multi_match 查询](http://106.186.120.253/preview/multi-match-query.html)
 ## Notes ##
+1. 使用dis_max 查询来实现最佳字段
+2. 在dis_max 查询中使用tie_breaker 参数来调优
+3. best_fields类型的multi_match多匹配查询实际上就是用dis_max 查询来实现最佳字段
 
