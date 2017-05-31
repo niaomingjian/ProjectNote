@@ -32,12 +32,12 @@
 ## Notes ##
 1. 使用dis_max 查询来实现最佳字段
 2. 在dis_max 查询中使用tie_breaker 参数来调优
-3. **best_fields**类型的multi_match多匹配查询实际上就是用dis_max 查询来实现最佳字段
+3. **best_fields**类型的multi_match多匹配查询实际上就是用dis_max 查询来实现最佳字段匹配
 
 # 5. 多数字段 #
 ## Links ##
 1. [多数字段](http://106.186.120.253/preview/most-fields.html)
 ## Notes ##
-1. 使用**most_fields**类型的multi_match多匹配查询来实现多数字段
+1. 使用**most_fields**类型的multi_match多匹配查询来实现多数字段匹配
 
 
