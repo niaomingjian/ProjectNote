@@ -42,4 +42,14 @@
 
 # 6. 混合字段 #
 ## Links ##
+1. [跨字段实体搜索 - most_fields方式的问题](http://106.186.120.253/preview/_cross_fields_entity_search.html#_most_fields_方式的问题)
+2. [自定义 _all 字段](http://106.186.120.253/preview/custom-all.html)
+3. [cross-fields 跨字段查询](http://106.186.120.253/preview/_cross_fields_queries.html)
 ## Notes ##
+1. 使用词中心式查询来实现混合字段匹配。
+2. 混合字段匹配在索引时的解决方案：自定义 _all字段。
+3. 混合字段匹配在检索时的解决方案：cross_fields 类型的multi_match查询。
+
+
+
+
