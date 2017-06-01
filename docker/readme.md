@@ -12,3 +12,6 @@
 `--link => Add link to another container`  
 `--rm => Automatically remove the container when it exits`  
 `--network => Connect a container to a network`  
+
+3. docker-compose exec dev-cassandra cqlsh  
+This is equivalent of `docker exec`. By default `docker-compose exec` allocates a TTY.
