@@ -4,3 +4,6 @@
 3. [Docker-compose CLI Reference](https://docs.docker.com/compose/reference/overview/)
 
 ## Notes ##
+1. Create a new Bash session in the container ubuntu_bash  
+`docker exec -it ubuntu_bash bash`  
+`docker exec --interactive --tty ubuntu_bash bash`
