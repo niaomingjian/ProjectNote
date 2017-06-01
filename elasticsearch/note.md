@@ -50,6 +50,6 @@
 2. 混合字段匹配在索引时的解决方案：自定义 _all字段。
 3. 混合字段匹配在检索时的解决方案：cross_fields 类型的multi_match查询。
 
-
+# 7. multi_match Query #
 
 
