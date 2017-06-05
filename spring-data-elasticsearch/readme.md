@@ -16,7 +16,7 @@
 		return mapper.mapResults(response, clazz, query.getPageable());
 	}
   
-  private SearchResponse doSearch(SearchRequestBuilder searchRequest, SearchQuery searchQuery) {
+	private SearchResponse doSearch(SearchRequestBuilder searchRequest, SearchQuery searchQuery) {
 		if (searchQuery.getFilter() != null) {
 			searchRequest.setPostFilter(searchQuery.getFilter());
 		}
@@ -65,7 +65,7 @@
 		return prepareSearch(query);
 	}
   
-  private SearchRequestBuilder prepareSearch(Query query) {
+	private SearchRequestBuilder prepareSearch(Query query) {
 		Assert.notNull(query.getIndices(), "No index defined for Query");
 		Assert.notNull(query.getTypes(), "No type defined for Query");
 
