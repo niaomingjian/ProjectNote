@@ -8,7 +8,7 @@
 3. 使用模块加载器导入模块。
 4. 
 
-# [基础类型]（https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Basic%20Types.html）
+# [基础类型](https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Basic%20Types.html)
 
 1. `let isDone: boolean = false;`  
 2. 数组 number[], Array<number>  
