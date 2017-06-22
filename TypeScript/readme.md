@@ -8,6 +8,19 @@
 3. 使用模块加载器导入模块。
 4. 
 
+# [基础类型]（https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Basic%20Types.html）
+
+1. `let isDone: boolean = false;`  
+2. 数组 number[], Array<number>  
+3. 元组 Tuple, let x: [string, number];  
+4. let notSure: any = 4;  
+5. void, null 和 Undefined, never
+6. 类型断言 <string>someValue, someValue as string  
+7. let  
+
+
+
+
 ## Content Q
 1. 具有副作用的导入模块  
 2. 大家最熟知的JavaScript模块加载器是服务于Node.js的CommonJS和服务于Web应用的Require.js  
@@ -16,8 +29,9 @@
 ## Technology Q
 1. CommonJS  
 2. AMD  
-3. 联合类型
-4. 
+3. [联合类型](https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Basic%20Types.html)  
+4. strictNullChecks标记  
+5. 
 
 
  
