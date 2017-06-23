@@ -18,6 +18,14 @@
 6. 类型断言 <string>someValue, someValue as string  
 7. let  
 
+# Practical Angular
+
+1. CTRL+SHIFT+B => compile ts  
+2. typehtml:5 and press tab => generate code [integration between Visual Studio Code andemmet]()  
+3. live-server  
+4. watch:true => compile automatically  
+5. Terminate running task
+6. Debug
 
 
 
