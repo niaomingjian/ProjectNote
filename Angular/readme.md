@@ -15,9 +15,9 @@ ng version
 ng init: create a new application in the current directory  
 ng new: create a new directory and run ng init inside the new directory  
 
-npm uninstall -g @angular/cli angular-cli
-npm cache clean
-npm install -g @angular/cli@latest
+npm uninstall -g @angular/cli angular-cli  
+npm cache clean  
+npm install -g @angular/cli@latest  
 
 
 
