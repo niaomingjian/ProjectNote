@@ -5,6 +5,10 @@
 ### [Angular CLI Config Schema](https://github.com/angular/angular-cli/wiki/angular-cli#angular-cli-config-schema)
 
 ### [ultimate-angular-cli-reference](https://www.sitepoint.com/ultimate-angular-cli-reference/)  
+
+## Note
+1. When running `ng serve`, the compiled output is served from memory, not from disk. This means that the application being served is not located on disk in the `dist` folder.  
+
 a development server  
 tests  
 build  
