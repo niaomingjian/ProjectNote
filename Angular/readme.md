@@ -1,6 +1,9 @@
 # [Angular](https://angular.cn/docs/ts/latest/)
 
 ## Angular CLI
+
+### [Angular CLI Config Schema](https://github.com/angular/angular-cli/wiki/angular-cli#angular-cli-config-schema)
+
 ### [ultimate-angular-cli-reference](https://www.sitepoint.com/ultimate-angular-cli-reference/)  
 a development server  
 tests  
