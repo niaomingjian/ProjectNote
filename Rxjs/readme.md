@@ -15,4 +15,12 @@ Operators: 纯函数，允许以函数式编程风格中像map, filter, concat, 
 Subject: 等价于一个事件发射者（EventEmitter）, 也是向多个Observers广播一个值或事件的唯一方式。  
 Schedulers: 集中式的调度者，来控制并发，允许我们协调运算何时发生在如setTimeout, requestAnimationFrame, 或其他中。  
 
+```
+var button = document.querySelector('button');
+Rx.Observable.fromEvent(button, 'click')
+  .subscribe(() => console.log('Clicked!'));
+```
+Rx.Observable.fromEvent(button, 'click') 创建一个Observable  
+Rx.Observable.fromEvent(button, 'click').subscribe() 返回一个Subscription  
+() => console.log('Clicked!') 是一个Observer  
 
