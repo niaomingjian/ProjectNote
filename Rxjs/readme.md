@@ -95,3 +95,5 @@ Rx.Observable.fromEvent(button, 'click')
   .scan((count, clientX) => count + clientX, 0)
   .subscribe(count => console.log(count));
 ```
+其他的值产生操作符有 pluck, pairwise, sample等。  
+
