@@ -38,7 +38,10 @@ Rx.Observable.fromEvent(button, 'click')
   .scan(count => count + 1, 0)
   .subscribe(count => console.log(`Clicked ${count} times`));
 ```
-[scan](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-scan)  
+这个scan操作符就像arrays的ruduce。  
+它会取一个值（count），这个值被暴露给一个回调（count + 1）。  
+这个回调的返回值然后会在下一次回调运行时成为下一个暴露的值。  
+[scan](https://github.com/niaomingjian/ProjectNote/blob/master/Rxjs/scan.md)  
 scan在源Observable上应用一个累加器函数，并且返回每一个中间结果。scan有一个可选的种子值。  
 
 
