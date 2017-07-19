@@ -24,3 +24,23 @@ Rx.Observable.fromEvent(button, 'click') 创建一个Observable
 Rx.Observable.fromEvent(button, 'click').subscribe() 返回一个Subscription  
 () => console.log('Clicked!') 是一个Observer  
 
+通过纯函数产生值这种能力使得RxJS很强大。这意味着你的代码不易出错。  
+通常你会创建非纯函数，你的代码的其他片段会弄混你的状态。
+```
+var count = 0;
+var button = document.querySelector('button');
+button.addEventListener('click', () => console.log(`Clicked ${++count} times`));
+```
+使用RxJS你可以隔离状态。  
+```
+var button = document.querySelector('button');
+Rx.Observable.fromEvent(button, 'click')
+  .scan(count => count + 1, 0)
+  .subscribe(count => console.log(`Clicked ${count} times`));
+```
+[scan](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-scan)  
+scan在源Observable上应用一个累加器函数，并且返回每一个中间结果。scan有一个可选的种子值。  
+
+
+
+
