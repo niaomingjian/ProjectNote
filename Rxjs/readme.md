@@ -24,6 +24,7 @@ Rx.Observable.fromEvent(button, 'click') 创建一个Observable
 Rx.Observable.fromEvent(button, 'click').subscribe() 返回一个Subscription  
 () => console.log('Clicked!') 是一个Observer  
 
+## Purity
 通过纯函数产生值这种能力使得RxJS很强大。这意味着你的代码不易出错。  
 通常你会创建非纯函数，你的代码的其他片段会弄混你的状态。
 ```
@@ -44,6 +45,53 @@ Rx.Observable.fromEvent(button, 'click')
 [scan](https://github.com/niaomingjian/ProjectNote/blob/master/Rxjs/scan.md)  
 scan在源Observable上应用一个累加器函数，并且返回每一个中间结果。scan有一个可选的种子值。  
 
+## Flow
+RxJS有一整套操作符，来帮助你控制事件如何流过你的observables.  
+这是你用纯JavaScript写的允许每秒最多一次的点击：
+```
+var count = 0;
+var rate = 1000;
+var lastClick = Date.now() - rate;
+var button = document.querySelector('button');
+button.addEventListener('click', () => {
+  if (Date.now() - lastClick >= rate) {
+    console.log(`Clicked ${++count} times`);
+    lastClick = Date.now();
+  }
+});
+```
+用RxJS:
+```
+var button = document.querySelector('button');
+Rx.Observable.fromEvent(button, 'click')
+  .throttleTime(1000)
+  .scan(count => count + 1, 0)
+  .subscribe(count => console.log(`Clicked ${count} times`));
+```
+其他的流操作符有 filter, delay, debounceTime, take, takeUntil, distinct, distinctUntilChanged等。
 
-
-
+## Values
+你可以转换通过你的observables的值。  
+这是你以纯JavaScript写的为每次点击加上当前鼠标的X坐标。  
+```
+var count = 0;
+var rate = 1000;
+var lastClick = Date.now() - rate;
+var button = document.querySelector('button');
+button.addEventListener('click', (event) => {
+  if (Date.now() - lastClick >= rate) {
+    count += event.clientX;
+    console.log(count)
+    lastClick = Date.now();
+  }
+});
+```
+用RxJS:
+```
+var button = document.querySelector('button');
+Rx.Observable.fromEvent(button, 'click')
+  .throttleTime(1000)
+  .map(event => event.clientX)
+  .scan((count, clientX) => count + clientX, 0)
+  .subscribe(count => console.log(count));
+```
