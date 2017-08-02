@@ -10,7 +10,7 @@ public do(nextOrObserver: Observer | function, error: function, complete: functi
 
 这个操作符对于调试你的Observable来看正确的值或执行其他的副作用很有用。  
 
-注意： 它和Observable上的订阅不同。如果do返回的Observable没有被订阅，那么由Observer指定的副作用将不会发生。  
+注意： 它和Observable上的subscribe不同。如果do返回的Observable没有被订阅，那么由Observer指定的副作用将不会发生。  
 因而do只简单侦听存在的执行，而不会像subscribe一样触发一个执行。  
 
 ```
