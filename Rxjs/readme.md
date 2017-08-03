@@ -1,4 +1,8 @@
+
 [RxJS](http://reactivex.io/rxjs/manual/overview.html)
+
+https://xgrommx.github.io/rx-book/index.html  
+
 
 Rxjs是通过使用**可观察序列**（observable sequences），用于构建**异步的基于事件的程序**的一个库。  
 它提供了一个核心类型**Observable**, 卫星类型（satellite types）(**Observer, Schedulers, Subjects**) 以及受Array#extras(map, filter, reduce, every, 等)启发的**操作符**来像处理集合一样处理异步事件。  
