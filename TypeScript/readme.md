@@ -1,5 +1,6 @@
 [TypeScript Handbook（中文版）](https://zhongsp.gitbooks.io/typescript-handbook/content/)  
 [TypeScript Documentation](https://www.typescriptlang.org/docs/home.html)  
+[Top 10 TypeScript Books For Web Developers](http://whatpixel.com/top-10-typescript-books/)
 
 # [模块](https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Modules.html)[Modules](https://www.typescriptlang.org/docs/handbook/modules.html)
 
