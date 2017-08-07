@@ -1,4 +1,11 @@
-npm-config  
+## npm-config  
 Manage the npm configuration files  
 
-npm config get registry  
+display registry:  
+$ npm config get registry  
+
+## npm-ls
+List installed packages  
+
+display the version of lodash:  
+$ npm list lodash  
