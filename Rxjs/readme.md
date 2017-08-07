@@ -2,6 +2,7 @@
 [RxJS](http://reactivex.io/rxjs/manual/overview.html)
 
 https://xgrommx.github.io/rx-book/index.html  
+http://www.syntaxsuccess.com/viewarticle/combining-multiple-rxjs-streams-in-angular-2.0  
 
 
 Rxjs是通过使用**可观察序列**（observable sequences），用于构建**异步的基于事件的程序**的一个库。  
