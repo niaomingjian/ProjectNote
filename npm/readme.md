@@ -20,3 +20,10 @@ result:
 D:\blgitlab\npm-packages
 `-- lodash@4.17.4
 ```
+
+
+Q:  
++ Error: EPERM: operation not permitted, rename ...  
+=> close running angular server  
+
+
