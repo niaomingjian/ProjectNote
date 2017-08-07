@@ -168,7 +168,14 @@ class Song {
 你可以在[TypeScript Codeplex](http://typescript.codeplex.com/workitem/125)项目中跟踪这个特性。  
 
 ### 属性和方法 Properties and Methods
+在TypeScript类中实例属性一般在构造器之前声明。  
+一个属性定义由三部分组成：可选的访问修饰符，标识符，类型注解。  
+比如： public name： string;  
+你也可以用一个值来初期化这个属性： public name:string='Jane';  
+当你的程序被编译了，属性的初始化（initializers）就被移到了构造器中。在类中实例属性可以使用关键字this来访问。  
+如果属性是public的，可以使用实例的名字来访问。  
 
+你也可以为你的类增加静态属性，就像定义实例属性一样，不过在访问修饰符和标识符之前加上了static关键字。
 
 
 
