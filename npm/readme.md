@@ -21,8 +21,10 @@ D:\blgitlab\npm-packages
 `-- lodash@4.17.4
 ```
 
+## [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
 
-Q:  
+
+## Q:  
 + Error: EPERM: operation not permitted, rename ...  
 => close running angular server  
 
