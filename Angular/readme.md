@@ -30,6 +30,10 @@ npm install -g @angular/cli@latest
 Angular’s component driven development  
 
 
+## Links
+https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#injectiontoken-since-angular-4x
+
+
 
 
 
