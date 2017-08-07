@@ -79,7 +79,95 @@ nodeList.onclick = function (event: MouseEvent) {
 任何增加到类中东西都会增加到接口中。  
 当和泛型一起使用时——本章后面会解释，你将会发现这个特性特别有用。  
 
-## Interface 类
+## Classes 类
+前述关于TypeScript的信息已经涉及了多种使用类型信息注解你的代码的方法。  
+正如你将在第2章中读到的，尽管理解所有的各种各样的类型注解很重要，TypeScript有为你做了很多工作的强大的类型接口。  
+另一方面，结构化的元素会变成熟悉的（molded to the shape of your hands）工具。  
+类就是这种最基本的组织你的程序的结构化元素。
+
+### 构造器
+无论你指定或不指定，TypeScript中的所有类都有一个构造器。  
+如果你忽略构造器，编译器会自动加上一个。  
+对于不从其他类继承的类，它的自动构造器是无参数的并会初期化所有类属性。  
+当一个类继承另一个类时，自动构造器会匹配超类的签名，并且在初期化它的所有属性之前会传参给超类。  
+Listing1-37展示两个有手动写的构造器的类。  
+```
+class Song {
+    constructor(private artist: string, private title: string) {
+ 
+    }
+    play() {
+        console.log('Playing ' + this.title + ' by ' + this.artist);
+    }
+}
+ 
+class Jukebox {
+    constructor(private songs: Song[]) {
+    }
+ 
+    play() {
+        var song = this.getRandomSong();
+        song.play();
+    }
+ 
+    private getRandomSong() {
+        var songCount = this.songs.length;
+        var songIndex = Math.floor(Math.random() * songCount);
+ 
+        return this.songs[songIndex];
+    }
+}
+ 
+var songs = [
+    new Song('Bushbaby', 'Megaphone'),
+    new Song('Delays', 'One More Lie In'),
+    new Song('Goober Gun', 'Stereo'),
+    new Song('Sohnee', 'Shatter'),
+    new Song('Get Amped', 'Celebrity')
+];
+ 
+var jukebox = new Jukebox(songs);
+ 
+jukebox.play();
+```
+它比本章中的其他代码稍微长点儿，不过在解释每个方面之前值得读一读。  
+首先会打击到你的是构造器的参数没有映射到成员变量。  
+如果你用访问修饰符作为构造器参数的前缀，比如private,它会自动为你映射的。  
+你可以引用这些构造器参数就像它们在类中声明为了属性一样。  
+比如this.title可以在Song类中的任何地方使用来获得song实例的名字。  
+Listing1-38展示了等价的代码——手动映射参数。不过这仅仅用于展示这一点，会创建很多冗余代码，你应该避免这种方式。  
+
+```
+class Song {
+ 
+    private artist: string;
+    private title: string;
+ 
+    constructor(artist: string, title: string) {
+        this.artist = artist;
+        this.title = title;
+    }
+    play() {
+        console.log('Playing ' + this.title + ' by ' + this.artist);
+    }
+}
+```
+### 访问修饰符
+访问修饰符可以用于改变一个类中的属性和方法的可见性。  
+默认情况下，属性和方法是public的。所以你没有必要给属性和方法添加public关键字前缀。  
+你确实需要为构造器的参数添加public关键字前缀， 如果你想要它们自动映射到public属性的话。  
+
+要隐藏一个属性和方法，你要给它加上private关键字。  
+这限制了访问性只在类内部，成员不会出现在类的自动完成清单（autocompletion lists）中。  
+任何外部访问都会导致编译错误。  
+当你把一个类成员标记为private时，它甚至不能被子类看到。  
+如果你想要从子类中访问一个属性或方法的话，它必须被设成public★。　　
+当你用private访问修饰符时，TypeScript编译器会执行成员的隐私性。  
+但是运行时没有可见性的强制。因为它在每个类的私有成员中要求一个附加的闭合（closure）。  
+有引入protected关键字的计划，它将使类成员在类和子类中可以访问——不过这个特性在1.0版本之后考虑。  
+你可以在[TypeScript Codeplex](http://typescript.codeplex.com/workitem/125)项目中跟踪这个特性。  
+
+### 属性和方法 Properties and Methods
 
 
 
