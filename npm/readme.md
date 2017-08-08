@@ -21,8 +21,8 @@ D:\blgitlab\npm-packages
 `-- lodash@4.17.4
 ```
 
-## [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)
-
+## [The semantic versioner for npm](https://docs.npmjs.com/misc/semver)  
+[语义化版本](http://semver.org/lang/zh-CN/)  
 
 ## Q:  
 + Error: EPERM: operation not permitted, rename ...  
