@@ -23,3 +23,16 @@ import { Observable } from 'rxjs';
 import { Observable } from 'rxjs/Observable';
 ```
 
++  Implement lifecycle hook interface OnInit for method ngOnInit in class ContractDetailPageComponent
+```
+export class PageComponent {
+  ngOnInit() {
+  }
+}
+=>
+export class PageComponent implements OnInit {
+  ngOnInit() {
+  }
+}
+```
+
