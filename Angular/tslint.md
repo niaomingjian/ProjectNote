@@ -23,7 +23,7 @@ import { Observable } from 'rxjs';
 import { Observable } from 'rxjs/Observable';
 ```
 
-+  Implement lifecycle hook interface OnInit for method ngOnInit in class ContractDetailPageComponent
++ Implement lifecycle hook interface OnInit for method ngOnInit in class ContractDetailPageComponent
 ```
 export class PageComponent {
   ngOnInit() {
@@ -35,4 +35,24 @@ export class PageComponent implements OnInit {
   }
 }
 ```
+
++ Shadowed variable: 'categoryId'
+```
+const categoryId = '4';
+export class ProductGuideComponent {
+    goto() {
+    const categoryId = '';
+    window.open('../estimate?categoryId=' + categoryId, '_blank');
+  }
+}
+=>
+const categoryId = '4';
+export class ProductGuideComponent {
+    goto() {
+    const categoryIdFromProperty = '';
+    window.open('../estimate?categoryId=' + categoryIdFromProperty, '_blank');
+  }
+}
+```
+
 
