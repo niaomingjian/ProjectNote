@@ -2,6 +2,32 @@
 
 ## Angular CLI
 
++ $ ng version  
+result: 
+```
+    _                      _                 ____ _     ___
+   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+  / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+ / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+               |___/
+@angular/cli: 1.2.1
+node: 6.9.4
+os: win32 x64
+@angular/animations: 4.2.6
+@angular/common: 4.2.6
+@angular/compiler: 4.2.6
+@angular/core: 4.2.6
+@angular/forms: 4.2.6
+@angular/http: 4.2.6
+@angular/platform-browser: 4.2.6
+@angular/platform-browser-dynamic: 4.2.6
+@angular/router: 4.2.6
+@angular/cli: 1.2.1
+@angular/compiler-cli: 4.2.6
+@angular/language-service: 4.2.6
+```
+
 ### [Angular CLI Config Schema](https://github.com/angular/angular-cli/wiki/angular-cli#angular-cli-config-schema)
 
 ### [ultimate-angular-cli-reference](https://www.sitepoint.com/ultimate-angular-cli-reference/)  
