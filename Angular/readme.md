@@ -28,7 +28,11 @@ os: win32 x64
 @angular/language-service: 4.2.6
 ```
 
-+ [angular-cli proxy for multiple backends](https://stackoverflow.com/q/43364804/4983501)
++ [angular-cli proxy for multiple backends](https://stackoverflow.com/q/43364804/4983501)  
+refs :  
+https://github.com/angular/angular-cli/wiki/stories-proxy  
+https://webpack.github.io/docs/webpack-dev-server.html#proxy  
+https://github.com/chimurai/http-proxy-middleware#options  
 
 
 
