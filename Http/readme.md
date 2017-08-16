@@ -1,3 +1,5 @@
 ### HTTP访问控制（CORS）
 + [HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 + [Using CORS](https://www.html5rocks.com/en/tutorials/cors/)
+
+### JWT authentication
