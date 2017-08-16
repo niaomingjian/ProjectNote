@@ -4,3 +4,7 @@
 
 ### JWT authentication
 + [Introduction to JSON Web Tokens](https://jwt.io/introduction/)
+
+### local storage
+
+### cookies
