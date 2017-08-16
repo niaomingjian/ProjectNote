@@ -3,3 +3,4 @@
 + [Using CORS](https://www.html5rocks.com/en/tutorials/cors/)
 
 ### JWT authentication
++ [Introduction to JSON Web Tokens](https://jwt.io/introduction/)
