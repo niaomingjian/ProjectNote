@@ -67,7 +67,11 @@ Angular’s component driven development
 ## Links
 https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#injectiontoken-since-angular-4x
 
-
+### angular 2 login app
++ [Angular 2/4 User Registration and Login Example & Tutorial](http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial)
++ [Angular 2/4 JWT Authentication Example & Tutorial](http://jasonwatmore.com/post/2016/08/16/angular-2-jwt-authentication-example-tutorial)
++ [Angular 2 Authentication Tutorial](https://auth0.com/blog/angular-2-authentication/)
++ [Login Screen and Authentication with Angular2](http://4dev.tech/2016/03/login-screen-and-authentication-with-angular2/)
 
 
 
