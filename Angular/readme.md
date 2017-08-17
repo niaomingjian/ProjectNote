@@ -73,7 +73,9 @@ https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#in
 + [Angular 2 Authentication Tutorial](https://auth0.com/blog/angular-2-authentication/)
 + [Login Screen and Authentication with Angular2](http://4dev.tech/2016/03/login-screen-and-authentication-with-angular2/)
 
-
+### ExpressionChangedAfterItHasBeenCheckedError
++ https://stackoverflow.com/q/44655745/4983501
++ https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4
 
 
 
