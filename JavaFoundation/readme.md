@@ -7,3 +7,5 @@
 + [Java BigDecimal Example](https://examples.javacodegeeks.com/core-java/math/bigdecimal-example/)  
 + [Java BigDecimal, Dealing with high precision calculations:](http://voidexception.weebly.com/java-bigdecimal---dealing-with-high-precision-calculations.html)  
 
+### spring-security-oauth
++ https://github.com/Baeldung/spring-security-oauth
