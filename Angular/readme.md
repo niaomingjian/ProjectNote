@@ -77,7 +77,12 @@ https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#in
 + https://stackoverflow.com/q/44655745/4983501
 + https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4
 
-
+#### Change Detection
++ update bound properties for all child components/directives
++ call ngOnInit, OnChanges and ngDoCheck lifecycle hooks on all child components/directives
++ update DOM for the current component
++ run change detection for a child component
++ call ngAfterViewInit lifecycle hook for all child components/directives
 
 
 
