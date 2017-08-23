@@ -84,6 +84,9 @@ https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#in
 + run change detection for a child component
 + call ngAfterViewInit lifecycle hook for all child components/directives
 
-
+### Access-Control-Expose-Headers
++ [Http response do not include headers](https://github.com/angular/angular/issues/5237#issuecomment-156059284)
++ [Angular 2 http Observable request not returning response header](https://stackoverflow.com/q/41616757/4983501)
++ [Access-Control-Expose-Headers](https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Access-Control-Expose-Headers)
 
 
