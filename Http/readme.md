@@ -5,6 +5,17 @@
 ### JWT authentication
 + [Introduction to JSON Web Tokens](https://jwt.io/introduction/)
 
+#### Concepts
++ signed JWT
++ access tokens
++ refresh tokens
++ client checks
++ blacklist
++ federated identity solutions
++ authentication and authorization
++ OAuth2 specification
++ (implementation defined)
+
 ### local storage
 
 ### cookies
