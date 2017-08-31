@@ -16,6 +16,9 @@
 + OAuth2 specification
 + (implementation defined)
 
++ registered claims
+
+
 ### local storage
 
 ### cookies
