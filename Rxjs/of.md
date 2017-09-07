@@ -1,4 +1,4 @@
-[of](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-interval)
+[of](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-of)
 
 创建一个Observable,立即一个接一个地发出你指定的参数，然后发出一个结束通知。  
 发出你提供的参数，然后结束。  
