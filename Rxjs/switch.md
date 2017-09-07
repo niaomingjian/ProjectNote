@@ -9,3 +9,9 @@ switch订阅的是会发出Observables的Observable, 也就是高阶Observable�
 高阶Observable  
 内部Observable  
 输出Observable  
+
+Converts a higher-order Observable into a first-order Observable by subscribing to only the most recently emitted of those inner Observables.  
+通过只订阅最新发出的内部Observable，将高阶Observable转换为第一阶Observable。  
+
+Flattens an Observable-of-Observables by dropping the previous inner Observable once a new one appears.  
+当一个新的内部Observable出现时就丢掉之前的内部Observable，来扁平化Observable的Observable。  
