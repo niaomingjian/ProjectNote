@@ -15,3 +15,6 @@ var interval = Rx.Observable.interval(1000);
 var result = numbers.concat(letters).concat(interval);
 result.subscribe(x => console.log(x));
 ```
+
+Questions:
++ `next`通知是**同步发出的**。如何理解？
