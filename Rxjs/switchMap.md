@@ -26,4 +26,4 @@ Returns an Observable that emits items based on applying a function that you sup
 + switch和switchMap的区别：  
 switch中的内部Observable的产生方式是由源Observable定义好的。  
 switchMap中的内部Observable的产生方式是通过一个函数提供给switchMap的。  
-一般会使用switchMap，因为内部Observable可以根据自己的需求来定义生成。  
+当需要自定义内部Observable的产生时会使用switchMap，因为内部Observable可以根据自己的需求来定义生成。  
