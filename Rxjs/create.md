@@ -1,4 +1,5 @@
-[create](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-create)
+[create](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-create)  
+public static create(onSubscription: function(observer: Observer): TeardownLogic): Observable  
 
 创建一个新的Observable,当一个Observer订阅它时它会执行指定的函数。  
 create将一个onSubscription函数转换为一个实际的Observable。  
