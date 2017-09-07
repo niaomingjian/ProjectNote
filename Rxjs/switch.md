@@ -1,4 +1,5 @@
 [switch](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-switch)  
+public switch(): Observable<T>  
 
 switch订阅的是会发出Observables的Observable, 也就是高阶Observable。  
 每当它观察到一个内部发出的Observable时，输出Observable（output Observable）会订阅这个内部Observable，并且开始发出由这个内部Observable发出的项目。  
