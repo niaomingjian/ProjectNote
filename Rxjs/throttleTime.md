@@ -1,4 +1,6 @@
 [throttleTime](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-throttleTime)  
+public throttleTime(duration: number, scheduler: Scheduler): Observable<T>  
+
 从源Observable发出一个值，然后在duration时间内忽略后续的源值，然后重复这个过程。  
 让一个值通过，然后在下一个duration时间内忽略源值。  
 当内部定时器无效时，throttleTime发出源Observable的值在输出Observable中，并且当定时器有效时忽略源值。  
