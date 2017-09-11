@@ -1,6 +1,9 @@
 Git
 
-[Git-Credential-Manager-for-Windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)  
+
+## [Atlassian git reference](https://www.atlassian.com/git)
+
+## [Git-Credential-Manager-for-Windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)  
 
 secure Git credential storage 安全的Git凭据存储  
 
