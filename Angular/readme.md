@@ -90,3 +90,12 @@ https://blog.thoughtram.io/angular/2016/05/23/opaque-tokens-in-angular-2.html#in
 + [Access-Control-Expose-Headers](https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Access-Control-Expose-Headers)
 + [Angular 4 http call filters out most of my API response headers](https://stackoverflow.com/q/44292660/4983501)
 
+### Import Rxjs operators
++ [导入-rxjs-操作符](https://angular.cn/tutorial/toh-pt6#导入-rxjs-操作符)
+```
+import * as Rx from "rxjs/Rx";
+import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs/Rx';
+import 'rxjs/add/observable/of';
+```
+
