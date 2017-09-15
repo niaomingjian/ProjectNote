@@ -103,3 +103,5 @@ Rx.Observable.fromEvent(button, 'click')
 其他的值产生操作符有 pluck, pairwise, sample等。  
 
 # [Handling Error](https://xgrommx.github.io/rx-book/content/getting_started_with_rxjs/creating_and_querying_observable_sequences/error_handling.html)  
+
+# [Migration](https://github.com/ReactiveX/rxjs/blob/master/MIGRATION.md)
