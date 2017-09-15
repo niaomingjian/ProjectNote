@@ -5,3 +5,8 @@
 
 # Notes: #
 
+###
++ [Typescript] get class name:
+```
+classInstance.constructor['name'];
+```
