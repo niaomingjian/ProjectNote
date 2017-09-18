@@ -106,5 +106,5 @@ import 'rxjs/add/observable/of';
 + [HttpXhrBackend](https://github.com/angular/angular/blob/818f4a751ecbb9b637389909f01373208dd16f0d/packages/common/http/src/xhr.ts)
 
 ### angular-2-training-book
-[angular-2-training-book](https://angular-2-training-book.rangle.io/handout/change-detection/how_change_detection_works.html)
++ [angular-2-training-book](https://angular-2-training-book.rangle.io/handout/change-detection/how_change_detection_works.html)
 
