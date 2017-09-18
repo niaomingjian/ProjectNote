@@ -101,3 +101,9 @@ import 'rxjs/add/observable/of';
 
 ### HTTP
 + [xhr_backend](https://github.com/angular/angular/blob/aeb98dbcdfec5a2e0f7b6ae167a10bd3e15f5096/packages/http/src/backends/xhr_backend.ts)
+
+### HTTP Client
++ [HttpXhrBackend](https://github.com/angular/angular/blob/818f4a751ecbb9b637389909f01373208dd16f0d/packages/common/http/src/xhr.ts)
+
+
+
