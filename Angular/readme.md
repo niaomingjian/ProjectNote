@@ -108,5 +108,7 @@ import 'rxjs/add/observable/of';
 ### angular-2-training-book
 + [angular-2-training-book](https://angular-2-training-book.rangle.io/handout/change-detection/how_change_detection_works.html)
 
-###
+### Unsubscribe
 + [When should I unsubscribe from Subscription](https://stackoverflow.com/q/38008334/4983501)
++ https://angular.io/guide/router#observable-parammap-and-component-reuse
++ https://angular.io/tutorial/toh-pt5#do-you-need-to-unsubscribe
