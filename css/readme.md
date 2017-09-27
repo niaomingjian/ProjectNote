@@ -2,3 +2,4 @@
 + [CSS3 opacity Property](https://www.w3schools.com/cssref/css3_pr_opacity.asp)
   + Default value: 1
 + [Bootstrap 4 official site](https://v4-alpha.getbootstrap.com/components/alerts/)  
++ [Grid system](https://bootstrapdocs.com/v3.3.6/docs/css/#grid)
