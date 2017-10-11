@@ -9,3 +9,6 @@
 
 ### spring-security-oauth
 + https://github.com/Baeldung/spring-security-oauth
+
+### Logback
++ [The logback manual](https://logback.qos.ch/manual/index.html)
