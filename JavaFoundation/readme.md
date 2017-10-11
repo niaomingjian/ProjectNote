@@ -11,4 +11,4 @@
 + https://github.com/Baeldung/spring-security-oauth
 
 ### Logback
-+ [The logback manual](https://logback.qos.ch/manual/index.html)
++ [Logback documentation](https://logback.qos.ch/documentation.html)
