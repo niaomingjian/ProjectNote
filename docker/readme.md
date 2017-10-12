@@ -15,3 +15,10 @@
 
 3. docker-compose exec dev-cassandra cqlsh  
 This is equivalent of `docker exec`. By default `docker-compose exec` allocates a TTY.
+
+
+## Google Cloud Platform
++ Install docker:
+```
+sudo yum install docker
+```
