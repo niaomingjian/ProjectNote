@@ -50,3 +50,6 @@ GCM是一个凭证帮助工具。它将你的凭证安全地存储在Windows凭�
 ### GitLab
 + Question: Merge Request中Changes Tab是如何比较的？merge develop分支后，比较的内容中有不是自己修改的内容，为什么？
 
+### Note
++ SCM software configuration management
+
