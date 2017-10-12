@@ -16,6 +16,15 @@
 3. docker-compose exec dev-cassandra cqlsh  
 This is equivalent of `docker exec`. By default `docker-compose exec` allocates a TTY.
 
+### 镜像的导入导出
+1. docker images 列出所有的镜像  
+2. docker save -o \<images.tar\> \<repository\> 将repository镜像保存到images.tar  
+3. docker load -i <images.tar> 将镜像导入  
+(或者  
+   docker save \<image id\> \> \<images.tar\>  
+   docker load \< \<images.tar\>  
+   不过导入后的镜像似乎没有了repository和tag，可以用 docker tag \<image id\> \<repository\>:\<tag\> 重新命名  
+)  
 
 ## Google Cloud Platform
 + Install docker:
