@@ -53,3 +53,7 @@ GCM是一个凭证帮助工具。它将你的凭证安全地存储在Windows凭�
 ### Note
 + SCM software configuration management
 
++ [Git cannot create a file or directory with a long path](https://github.com/git-for-windows/git/wiki/Git-cannot-create-a-file-or-directory-with-a-long-path)
+```
+    git config core.longpaths true
+```
