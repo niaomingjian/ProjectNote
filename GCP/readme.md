@@ -7,3 +7,6 @@
 
 ### 命令
 + gcloud compute instances list => 显示所有可用的实例  
+
+### Refs
++ [connecting-to-instance](https://cloud.google.com/compute/docs/instances/connecting-to-instance#sshingcloud)
