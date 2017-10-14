@@ -29,6 +29,13 @@ This is equivalent of `docker exec`. By default `docker-compose exec` allocates 
 ### 改变Docker VM的位置
 + [Change Docker machine location - Windows](https://stackoverflow.com/q/33933107/4983501)
 
+### 关闭Docker VM
++ [docker-machine stop](https://docs.docker.com/machine/reference/stop/)
+```
+docker-machine stop <VM name>
+```
+
+
 ## Google Cloud Platform
 + Install docker:
 ```
