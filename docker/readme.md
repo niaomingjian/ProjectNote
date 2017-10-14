@@ -26,6 +26,9 @@ This is equivalent of `docker exec`. By default `docker-compose exec` allocates 
    不过导入后的镜像似乎没有了repository和tag，可以用 docker tag \<image id\> \<repository\>:\<tag\> 重新命名  
 )  
 
+### 改变Docker VM的位置
++ [Change Docker machine location - Windows](https://stackoverflow.com/q/33933107/4983501)
+
 ## Google Cloud Platform
 + Install docker:
 ```
