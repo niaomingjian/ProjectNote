@@ -1,7 +1,7 @@
-Git
+### Git References
++ [Atlassian git reference](https://www.atlassian.com/git)
++ [https://www.backlog.jp/git-guide/](https://www.backlog.jp/git-guide/)
 
-
-## [Atlassian git reference](https://www.atlassian.com/git)
 
 ### TortoiseGit
 + [Push - Force (May discard known changes) Option](https://tortoisegit.org/docs/tortoisegit/tgit-dug-push.html)
