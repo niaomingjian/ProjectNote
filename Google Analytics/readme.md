@@ -2,6 +2,7 @@
 
 ### References
 + [analytics.js 向け Autotrack のご紹介](https://developers-jp.googleblog.com/2016/03/analyticsjs-autotrack.html)
++ [Introducing Autotrack for analytics.js](https://developers.googleblog.com/2016/02/introducing-autotrack-for-analyticsjs.html)
 + [google analyticsの便利なプラグイン「autotrack.js」の紹介](http://blog.excite.co.jp/exdev/27149130/)
 + [将 analytics.js 添加到网站中](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 + [Add gtag.js to your site](https://developers.google.com/analytics/devguides/collection/gtagjs/)
@@ -9,8 +10,7 @@
 + [单页应用跟踪](https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications)
 + [Google Analytics（分析）培训与支持](https://support.google.com/analytics/answer/4553001?hl=zh-Hans)
 + [通过免费在线课程学习数据分析知识](https://analytics.google.com/analytics/academy/)
-
-
++ [Autotrack](https://github.com/shilongzhuang/autotrack/blob/1d371644f25529b4ae6203182bb8db2e1494693c/1.0/README.zh.md)
 
 ### Angular 2 & Google Analytics
 + [Angular2のようなシングルページアプリケーションでGoogleアナリティクスを使う方法](https://shinichi-ito.com/spa/)
@@ -26,3 +26,7 @@
 + [Global Site Tag: the new Google tracking code](https://www.analyticsboosters.com/google-analytics/global-site-tag-the-new-google-tracking-code/)
 + [Web制作者がgtag.jsで知っておきたいGoogleアナリティクスの今](http://www.kagua.biz/help/config/gtagjs.html)
 + [【重要！追記アリ】Google アナリティクスの新タグ「gtag.js」はまだ使わないという判断が良いと思う。](https://www.uneidou.com/18062.php)
+
+### Questions
++ Google Analytics是什么？
++ gtag.js,analytics.js,autotrack.js的区别？
