@@ -11,6 +11,7 @@
 + [Google Analytics（分析）培训与支持](https://support.google.com/analytics/answer/4553001?hl=zh-Hans)
 + [通过免费在线课程学习数据分析知识](https://analytics.google.com/analytics/academy/)
 + [Autotrack](https://github.com/shilongzhuang/autotrack/blob/1d371644f25529b4ae6203182bb8db2e1494693c/1.0/README.zh.md)
++ [angulartics/angulartics2](https://github.com/angulartics/angulartics2)
 
 ### Angular 2 & Google Analytics
 + [Angular2のようなシングルページアプリケーションでGoogleアナリティクスを使う方法](https://shinichi-ito.com/spa/)
