@@ -14,6 +14,11 @@ Measurement Protocol(Google Universal Analytics’ data collection API)
 
 In those 7 years, the JavaScript-powered digital marketing industry has massively embraced JSON as a replacement for XML for configuration and data exchange.
 
+#### Event Tracking
++ category
++ action
++ label
++ value
 
 
 
