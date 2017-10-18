@@ -20,6 +20,13 @@ In those 7 years, the JavaScript-powered digital marketing industry has massivel
 + label
 + value
 
+### [Adding analytics.js to Your Site](https://developers.google.com/analytics/devguides/collection/analyticsjs/#the_javascript_tracking_snippet)
+
++ the ga() command queue
++ create a new tracker object
++ send a pageview to Google Analytics
+
+
 
 
 
