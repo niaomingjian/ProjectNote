@@ -116,3 +116,4 @@ tsconfig.nostrictnull.json:
 }
 ```
  
+ ## [Common Errors](https://basarat.gitbooks.io/typescript/docs/errors/main.html)
