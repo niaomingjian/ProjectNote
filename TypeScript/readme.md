@@ -42,5 +42,75 @@
 4. strictNullChecks标记  
 5. 
 
+### https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types
+**@types, typeRoots and types**  
+默认情况下，在编译中，所有可见的"@type"包都被引入了。在任何封闭文件夹 node_modules/@types中的包都被认为是可见的。
+特别是在./node_modules/@types/，../node_modules/@types/，../../node_modules/@types/等中的包。
 
+如果typeRoots被指定了的话，只有位于typeRoots下的包会被引入。比如：
+```
+{
+   "compilerOptions": {
+       "typeRoots" : ["./typings"]
+   }
+}
+```
+这个配置文件将会引入./typings下的所有包，不会引入./node_modules/@types下的包。
+
+如果types被指定了，只有列出来的包会被引入。比如：
+```
+{
+   "compilerOptions": {
+       "types" : ["node", "lodash", "express"]
+   }
+}
+```
+这个tsconfig.json文件只会引入./node_modules/@types/node, ./node_modules/@types/lodash and ./node_modules/@types/express。
+在node_modules/@types/*中的其他包将不会被引入。
+
+指定"types": []来使@types包的自动引入失效。
+
+注意只有你正在使用全局声明的文件时，自动引入才重要（相对的就是定义为模块的文件）。比如，如果你使用import "foo"语句，
+TypeScript可能依然会查看node_modules和node_modules/@types文件夹来查找foo包。
+
+**使用extends进行配置继承**  
+一个tsconfig.json文件可以用extends属性继承来自另一个文件的配置。
+extends是tsconfig.json的顶层属性（top-level property），和compilerOptions, files, include, exclude并肩。
+extends的值是一个包含要继承的另一个配置文件路径的字符串。
+
+来自于基本文件的配置会被首先加载，然后会被[继承配置文件]的配置覆盖。如果遇到一个环路，就会报告一个错误。
+来自继承配置文件的files, include 和 exclude会覆写来自基本文件的它们。
+
+所有在配置文件中的相对路径会被解析为相对于它们所在的这个配置文件。
+
+比如：
+configs/base.json:
+```
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  }
+}
+```
+
+tsconfig.json:
+```
+{
+  "extends": "./configs/base",
+  "files": [
+    "main.ts",
+    "supplemental.ts"
+  ]
+}
+```
+tsconfig.nostrictnull.json:
+```
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "strictNullChecks": false
+  }
+}
+```
  
