@@ -42,6 +42,8 @@
 4. strictNullChecks标记  
 5. 
 
+## tsconfig.json
+### https://www.typescriptlang.org/docs/handbook/compiler-options.html
 ### https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types
 **@types, typeRoots and types**  
 默认情况下，在编译中，所有可见的"@type"包都被引入了。在任何封闭文件夹 node_modules/@types中的包都被认为是可见的。
