@@ -26,6 +26,15 @@ In those 7 years, the JavaScript-powered digital marketing industry has massivel
 + create a new tracker object
 + send a pageview to Google Analytics
 
+### analytics.js 的工作原理
+
+ga 命令队列  
+函数也是对象  
+ga 函数对象上的q属性（q 数组）  
+规避了异步代码的诸多复杂性  
+这些调用几乎不可能报错  
+
+
 
 
 
