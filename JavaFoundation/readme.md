@@ -12,3 +12,9 @@
 
 ### Logback
 + [Logback documentation](https://logback.qos.ch/documentation.html)
+
+### Java Foundation
++ [PATH and CLASSPATH](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html)
+```
+echo %JAVA_HOME%
+```
