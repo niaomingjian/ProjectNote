@@ -35,6 +35,57 @@ This is equivalent of `docker exec`. By default `docker-compose exec` allocates 
 docker-machine stop <VM name>
 ```
 
+### Docker commands
++ 检索镜像  
+docker search <redis>  
+  
++ 下载镜像  
+docker pull <redis>  
+  
++ 列出本地镜像  
+docker images  
+  
++ 删除镜像  
+docker rmi image-id  
+  
++ 删除所有镜像  
+docker rmi $(docker images -q)  
+  
++ 列出运行中的容器  
+docker ps  
+  
++ 列出运行和停止的容器  
+docker ps -a  
+  
++ 运行镜像为容器  
+docker run --name container-name -d image-name  
+-d => detached 控制台不会阻塞  
+  
++ 停止容器  
+docker stop container-name/container-id  
+  
++ 启动容器  
+docker start container-name/container-id  
+  
++ docker容器中端口映射到主机的端口  
+-p 参数  
+  
++ docker容器的端口 => VirtualBox的端口 => Windows主机端口  
+  
++ 查看当前容器日志  
+docker logs container-name/container-id  
+  
++ 登录容器  
+[winpty] docker exec -it container-id/container-name bash  
+  
++ 登录虚拟机  
+docker-machine ssh  
+or boot2docker ssh(本机测试不行)  
+  
++ 启动docker并保持开机自启  
+systemctl start docker  
+systemctl enable docker  
+
 
 ## Google Cloud Platform
 + Install docker:
