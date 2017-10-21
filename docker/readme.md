@@ -3,6 +3,7 @@
 2. [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/cli/)  
 3. [Docker-compose CLI Reference](https://docs.docker.com/compose/reference/overview/)
 4. [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+5. [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/)
 
 ## Notes ##
 1. Create a new Bash session in the container ubuntu_bash  
