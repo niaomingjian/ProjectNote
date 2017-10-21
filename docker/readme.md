@@ -2,6 +2,7 @@
 1. [Get started with Docker](https://docs.docker.com/get-started/)  
 2. [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/cli/)  
 3. [Docker-compose CLI Reference](https://docs.docker.com/compose/reference/overview/)
+4. [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
 ## Notes ##
 1. Create a new Bash session in the container ubuntu_bash  
