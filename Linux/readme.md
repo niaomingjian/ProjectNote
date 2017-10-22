@@ -1,6 +1,7 @@
 ## Links ##
 1. [Unix and Linux Commands Help](https://www.computerhope.com/unix.htm)
 2. [鸟哥的 Linux 私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
+   + [YUM 线上升级机制](http://cn.linux.vbird.org/linux_basic/0520rpm_and_srpm.php#yumclient)
 
 ## Notes ##
 1. [sh](https://www.computerhope.com/unix/ush.htm) -c "XXX"  
