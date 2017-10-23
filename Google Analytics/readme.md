@@ -20,6 +20,7 @@
 + [Event Tracking With Google Analytics in Angular](https://medium.com/@milosbejda/declarative-event-tracking-with-google-analytics-in-angular-c59f464680c6)
 + [Using Google Tag Manager with Angular 4](http://ngforge.com/using-google-tag-manager-with-angular-4/)
 + [Using Google Analytics with SPAs](http://ngforge.com/google-analytics-with-single-page-applications/)
++ [USING GOOGLE ANALYTICS WITH YOUR SPA ANGULAR 2 WEB APP](http://www.surfdew.com/using-google-analytics-with-your-spa-angular-2-web-app/)
 
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
