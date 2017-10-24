@@ -24,6 +24,10 @@
 + [Using Google Analytics with SPAs](http://ngforge.com/google-analytics-with-single-page-applications/)
 + [USING GOOGLE ANALYTICS WITH YOUR SPA ANGULAR 2 WEB APP](http://www.surfdew.com/using-google-analytics-with-your-spa-angular-2-web-app/)
 
+### Google Tag Manager
++ [TRACKING SINGLE PAGE WEB APPS WITH GOOGLE TAG MANAGER & ANALYTICS](https://www.pmg.com/blog/tracking-single-page-web-apps-google-tag-manager-analytics/)
++ [HOW TO TRACK SINGLE PAGE WEB APP WITH GOOGLE TAG MANAGER](https://www.analyticsmania.com/post/single-page-web-app-with-google-tag-manager/)
+
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
 + [Google Analytics releases new unified ‘Global Site Tag’ – gtag.js](https://www.impression.co.uk/blog/7583/google-analytics-new-gtag-js/)
