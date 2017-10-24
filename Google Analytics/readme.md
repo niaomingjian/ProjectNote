@@ -6,6 +6,7 @@
 + [google analyticsの便利なプラグイン「autotrack.js」の紹介](http://blog.excite.co.jp/exdev/27149130/)
 + [将 analytics.js 添加到网站中](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 + [Add gtag.js to your site](https://developers.google.com/analytics/devguides/collection/gtagjs/)
++ [Google 跟踪代码管理器概览](https://support.google.com/tagmanager/answer/6102821?hl=zh-Hans&ref_topic=3441530)
 
 + [单页应用跟踪](https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications)
 + [Google Analytics（分析）培训与支持](https://support.google.com/analytics/answer/4553001?hl=zh-Hans)
