@@ -4,6 +4,7 @@
 3. [Docker-compose CLI Reference](https://docs.docker.com/compose/reference/overview/)
 4. [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 5. [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/)
+6. [Docker 加速器](http://guide.daocloud.io/dcs/daocloud-9153151.html)
 
 ## Notes ##
 1. Create a new Bash session in the container ubuntu_bash  
@@ -96,3 +97,4 @@ sudo yum install docker
 ```
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-centos-7
+
