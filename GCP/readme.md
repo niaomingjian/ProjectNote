@@ -13,3 +13,6 @@
 
 ### 我的结算帐号
 https://console.cloud.google.com/billing/00D491-66E103-6F4A75?project=gcp20170324
+
+### running angular on GCP
+ng serve --host 0.0.0.0 --port 8080 --public publicipaddress  --disable-host-check
