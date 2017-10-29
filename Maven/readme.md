@@ -7,6 +7,11 @@
 
 # Maven实战
 
+### 建议
++ 显示声明项目中直接用到的依赖
+
+
+
 ### Questions
 + 自动生成的项目报告，帮助项目成员了解项目状况，促进项目交流？
 + Maven发布的项目报告站点？
@@ -24,6 +29,11 @@
 + mvn clean package
 + mvn clean install
 + 配置maven-shade-plugin生成可执行jar文件
++ mvn archetype:generate  maven-archetype-plugin
++ mvn dependency:list查看当前项目的已解析依赖
++ mvn dependency:tree查看当前项目的依赖树
++ mvn dependency:analyze分析依赖树
+
 
 
 
