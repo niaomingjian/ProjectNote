@@ -34,6 +34,7 @@
 + mvn dependency:tree查看当前项目的依赖树
 + mvn dependency:analyze分析依赖树
 
-
+### References
++ [Maven CLI Options Reference](http://maven.apache.org/ref/3.1.0/maven-embedder/cli.html)
 
 
