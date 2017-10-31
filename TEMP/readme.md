@@ -3,7 +3,8 @@
 + [spring-boot milestones](https://github.com/spring-projects/spring-boot/milestones?direction=asc&sort=due_date&state=open)
 
 ### dependencies(v2.0.0.M5)
-+ [spring-boot-dependencies](https://github.com/spring-projects/spring-boot/blob/v2.0.0.M5/spring-boot-project/spring-boot-dependencies/pom.xml)
++ [spring-boot-dependencies/pom.xml](https://github.com/spring-projects/spring-boot/blob/v2.0.0.M5/spring-boot-project/spring-boot-dependencies/pom.xml)
++ [spring-boot/pom.xml](https://github.com/spring-projects/spring-boot/blob/v2.0.0.M5/pom.xml)
 
 
 # elasticsearch
