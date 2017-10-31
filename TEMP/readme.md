@@ -8,7 +8,7 @@
 
 
 # elasticsearch
-+ [Elasticsearch 5.0.0 released](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes)
++ [Elasticsearch 5.0.0 released](https://www.elastic.co/blog/elasticsearch-5-0-0-released)
 + [Java API changese](https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking_50_java_api_changes.html)
 
 # cassandra
