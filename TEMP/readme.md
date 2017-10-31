@@ -9,3 +9,4 @@
 + [Using PowerMock with Mockito](https://github.com/powermock/powermock/wiki/Mockito)
 + [What's new in Mockito 2](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2)
 + [Incompatible changes with 1.10](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2#incompatible-changes-with-110)
++ [Migration to Mockito 2.1](https://asolntsev.github.io/en/2016/10/11/mockito-2.1/)
