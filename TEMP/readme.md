@@ -7,3 +7,5 @@
 + [http://archive.apache.org/dist/cassandra/](http://archive.apache.org/dist/cassandra/)
 # Mockito
 + [Using PowerMock with Mockito](https://github.com/powermock/powermock/wiki/Mockito)
++ [What's new in Mockito 2](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2)
++ [Incompatible changes with 1.10](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2#incompatible-changes-with-110)
