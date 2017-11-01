@@ -98,5 +98,35 @@ sudo yum install docker
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-centos-7
 
+### Docker进阶和实战
++ 镜像默认存储位置
++ docker daemon -g 指定路径
++ docker images --filter
++ -q参数 管道命令
++ dockerviz
++ docker load
++ docker import
++ docker commit
++ docker inspect
++ docker history
++ docker run -v
++ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
