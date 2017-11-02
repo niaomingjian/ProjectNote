@@ -11,8 +11,10 @@
 + [Elasticsearch 5.0.0 released](https://www.elastic.co/blog/elasticsearch-5-0-0-released)
 + [Java API changese](https://www.elastic.co/guide/en/elasticsearch/reference/current/breaking_50_java_api_changes.html)
 
+
 # cassandra
 + [http://archive.apache.org/dist/cassandra/](http://archive.apache.org/dist/cassandra/)
++ [spring data cassandra New & Noteworthy](https://docs.spring.io/spring-data/cassandra/docs/2.0.0.RELEASE/reference/html/#new-features)
 # Mockito
 + [Using PowerMock with Mockito](https://github.com/powermock/powermock/wiki/Mockito)
 + [What's new in Mockito 2](https://github.com/mockito/mockito/wiki/What%27s-new-in-Mockito-2)
