@@ -28,6 +28,9 @@
 ### Google Tag Manager
 + [TRACKING SINGLE PAGE WEB APPS WITH GOOGLE TAG MANAGER & ANALYTICS](https://www.pmg.com/blog/tracking-single-page-web-apps-google-tag-manager-analytics/)
 + [HOW TO TRACK SINGLE PAGE WEB APP WITH GOOGLE TAG MANAGER](https://www.analyticsmania.com/post/single-page-web-app-with-google-tag-manager/)
++ [How to Fire a Virtual Pageview in Google Tag Manager](https://www.lunametrics.com/blog/2014/09/10/fire-virtual-pageview-google-tag-manager/)
++ [TRACK POP-UP CONVERSIONS IN GOOGLE ANALYTICS VIA GOOGLE TAG MANAGER](http://dmitriilin.com/track-pop-up-conversions-in-google-analytics-via-google-tag-manager/)
++ [Tracking Virtual Pageviews in Google Tag Manager](https://www.webmethod.co.uk/blog/2015/06/tracking-virtual-pageviews-in-google-tag-manager-google-analytics)
 
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
