@@ -10,7 +10,9 @@
   May I sit here?  
   He lifted the child and sat her on the wall.  
 + get up  
+  + to stand up after sitting, lying, etc.  
   The class got up when the teacher came in.  
+  + to get out of bad; to make sb get out of bed  
   He always gets up early.  
   Could you get me up at 6:30 tomorrow?  
   
