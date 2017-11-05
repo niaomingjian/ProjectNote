@@ -7,6 +7,6 @@
   next to or at the side of sb/sth  
   he sat beside her all night.  
 + sit( sat/sæt/)  
-  May I sit here?
-  He lifted the child and sat her on the wall.
+  May I sit here?  
+  He lifted the child and sat her on the wall.  
   
