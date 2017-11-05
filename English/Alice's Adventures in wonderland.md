@@ -9,4 +9,8 @@
 + sit( sat/sæt/)  
   May I sit here?  
   He lifted the child and sat her on the wall.  
++ get up  
+  The class got up when the teacher came in.  
+  He always gets up early.  
+  Could you get me up at 6:30 tomorrow?  
   
