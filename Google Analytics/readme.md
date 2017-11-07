@@ -31,6 +31,7 @@
 + [How to Fire a Virtual Pageview in Google Tag Manager](https://www.lunametrics.com/blog/2014/09/10/fire-virtual-pageview-google-tag-manager/)
 + [TRACK POP-UP CONVERSIONS IN GOOGLE ANALYTICS VIA GOOGLE TAG MANAGER](http://dmitriilin.com/track-pop-up-conversions-in-google-analytics-via-google-tag-manager/)
 + [Tracking Virtual Pageviews in Google Tag Manager](https://www.webmethod.co.uk/blog/2015/06/tracking-virtual-pageviews-in-google-tag-manager-google-analytics)
++ [Instantiating & Using The Google Tag Manager dataLayer – Data Layer Best Practices Pt 1](https://www.lunametrics.com/blog/2016/03/21/gtm-data-layer-best-practices/)
 
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
