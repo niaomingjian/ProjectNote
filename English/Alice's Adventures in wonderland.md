@@ -15,4 +15,4 @@
   + to get out of bad; to make sb get out of bed  
   He always gets up early.  
   Could you get me up at 6:30 tomorrow?  
-  
++ 
