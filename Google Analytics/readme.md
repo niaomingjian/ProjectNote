@@ -35,6 +35,7 @@
 + [Where Should the Google Tag Manager Snippet Be Placed?](https://www.lunametrics.com/blog/2016/11/22/google-tag-manager-snippet-placement/)
 + [Can you Track Keystrokes in Google Tag Manager? ("Enter" key) ](https://productforums.google.com/forum/#!msg/tag-manager/LxEuGSAXcTg/KsZGl0OfBAAJ)
 + [How to setup GTM v2 to track virtualPageView from angular SPA](https://productforums.google.com/forum/#!topic/tag-manager/mb_FXKrt8Ro)
++ [#GTMTips: Test Against Multiple URLs In Your Triggers](https://www.simoahava.com/gtm-tips/gtmtips-test-multiple-urls-triggers/)
 
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
