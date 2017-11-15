@@ -38,6 +38,9 @@
 + [#GTMTips: Test Against Multiple URLs In Your Triggers](https://www.simoahava.com/gtm-tips/gtmtips-test-multiple-urls-triggers/)
 + [Methods to Strip Queries from URLS in Google Analytics](https://www.lunametrics.com/blog/2015/04/17/strip-query-parameters-google-analytics/)
 
+#### Triggers
++ [Element visibility (web)](https://support.google.com/tagmanager/answer/6106961?hl=zh-Hans&authuser=2#element_visibility)
+
 ### Discussion
 + [Should you switch to Google Analytics’ Global Site Tag?](https://juliencoquet.com/en/2017/09/11/switch-google-analytics-global-site-tag/)
 + [Google Analytics releases new unified ‘Global Site Tag’ – gtag.js](https://www.impression.co.uk/blog/7583/google-analytics-new-gtag-js/)
