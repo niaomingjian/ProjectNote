@@ -28,4 +28,5 @@ D:\blgitlab\npm-packages
 + Error: EPERM: operation not permitted, rename ...  
 => close running angular server  
 
-
+### package.json
++ [How to use npm scripts like `node_modules/.bin/cmd` on windows? ](https://github.com/npm/npm/issues/13750)
