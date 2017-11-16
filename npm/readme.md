@@ -30,3 +30,4 @@ D:\blgitlab\npm-packages
 
 ### package.json
 + [How to use npm scripts like `node_modules/.bin/cmd` on windows? ](https://github.com/npm/npm/issues/13750)
++ [Running locally installed npm executables](http://2ality.com/2016/01/locally-installed-npm-executables.html)
