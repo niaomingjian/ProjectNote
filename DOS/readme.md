@@ -12,3 +12,5 @@ Running this in a directory in the command line
 # [ss64.com References](https://ss64.com/nt/syntax-args.html)
 + [Command Line arguments (Parameters)](https://ss64.com/nt/syntax-args.html)
 + [ECHO](https://ss64.com/nt/echo.html)
++ [SET](https://ss64.com/nt/set.html)  
+  + SET variable=string 等号两侧不能有空格
