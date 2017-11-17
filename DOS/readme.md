@@ -14,3 +14,4 @@ Running this in a directory in the command line
 + [ECHO](https://ss64.com/nt/echo.html)
 + [SET](https://ss64.com/nt/set.html)  
   + SET variable=string 等号左侧有空格的话，会作为变量名的结尾字符。等号右侧有空格的话，会作为其值的开始字符  
++ [IF](https://ss64.com/nt/if.html)
