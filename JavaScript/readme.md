@@ -15,4 +15,5 @@
 + [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 + [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
+### [JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
 ### [ECMAScript 6 入门](https://www.gitbook.com/book/wohugb/ecmascript-6/details)
