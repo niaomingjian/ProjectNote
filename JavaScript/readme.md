@@ -7,6 +7,9 @@
 ### 找元素
 + [Array.prototype.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
++ [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)  
+  
+  
 ## RegExp
 + [JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 + [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
