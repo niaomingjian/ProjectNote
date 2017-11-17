@@ -11,3 +11,5 @@
 + [JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 + [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 + [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
+### [ECMAScript 6 入门](https://www.gitbook.com/book/wohugb/ecmascript-6/details)
