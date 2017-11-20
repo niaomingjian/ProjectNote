@@ -11,6 +11,8 @@
   
 + [Array.prototype.reduce()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)  
   + 对累加器和数组中的每个元素（从左到右）应用一个函数，将其减少为单个值。
++ [Array.prototype.map()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+  + 创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。
   
 ## RegExp
 + [JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
