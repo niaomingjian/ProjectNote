@@ -9,6 +9,8 @@
 
 + [String.prototype.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)  
   
++ [Array.prototype.reduce()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)  
+  + 对累加器和数组中的每个元素（从左到右）应用一个函数，将其减少为单个值。
   
 ## RegExp
 + [JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
