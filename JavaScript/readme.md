@@ -21,3 +21,5 @@
 ### Promises
 + [Using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 + [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
++ [JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/primers/promises)
++ 
