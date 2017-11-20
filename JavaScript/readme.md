@@ -27,3 +27,8 @@
 + [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 + [JavaScript Promises: an Introduction](https://developers.google.com/web/fundamentals/primers/promises)
 + 
+
+#### Promises(methods)
++ Promise.resolve 可以利用它将多个promise结果链接在一起成为一个值，让多个promise顺序执行。
++ Promise.all 可以将多个promise结果收集到一起成为一个数组，让多个promise并行执行。
+
