@@ -25,3 +25,7 @@
 ### Notes
 spring-data-elasticsearch 2.1.3->3.0.0  
 spring-data-cassandra 1.5.3->2.0.0  
+
+### TODOs
++ [Wrong pagination using Spring Data ElasticSearch 3.0.0.BUILD-SNAPSHOT with Elasticsearch 5.4.0](https://stackoverflow.com/q/45754909/4983501)
++ [the totalPages returns always 1](https://jira.spring.io/browse/DATAES-413)
