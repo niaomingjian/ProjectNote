@@ -2,6 +2,7 @@
 + [Spring Boot 2.0 Release Notes](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Release-Notes)
 + [spring-boot milestones](https://github.com/spring-projects/spring-boot/milestones?direction=asc&sort=due_date&state=open)
 + [Spring Boot 2.0 Migration Guide](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide)
++ [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/2.0.0.BUILD-SNAPSHOT/reference/htmlsingle/)
 
 ### dependencies(v2.0.0.M5)
 + [spring-boot-dependencies/pom.xml](https://github.com/spring-projects/spring-boot/blob/v2.0.0.M5/spring-boot-project/spring-boot-dependencies/pom.xml)
