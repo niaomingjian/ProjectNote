@@ -12,6 +12,8 @@
 + [Breaking changes](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/breaking-changes-5.0.html)
   + migration-plugin
 + [Strings are dead, long live strings!](https://www.elastic.co/blog/strings-are-dead-long-live-strings)
++ [Suggester changes](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/breaking_50_suggester.html)
++ [Completion Suggester](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/search-suggesters-completion.html)
 
 # cassandra
 + [http://archive.apache.org/dist/cassandra/](http://archive.apache.org/dist/cassandra/)
