@@ -10,6 +10,7 @@
 # elasticsearch
 + [Elasticsearch 5.0.0 released](https://www.elastic.co/blog/elasticsearch-5-0-0-released)
 + [Breaking changes](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/breaking-changes-5.0.html)
+  + migration-plugin
 + [Strings are dead, long live strings!](https://www.elastic.co/blog/strings-are-dead-long-live-strings)
 
 # cassandra
