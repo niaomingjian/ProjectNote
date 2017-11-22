@@ -15,6 +15,7 @@
 + [Suggester changes](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/breaking_50_suggester.html)
 + [Completion Suggester](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/search-suggesters-completion.html)
 + [How can i get unique suggestions without duplicates when i use completion suggester?](https://stackoverflow.com/q/42391207/4983501)
++ [Autocomplete suggestion no longer removes duplicate entries as in ES 2.3](https://github.com/elastic/elasticsearch/issues/22912)
 
 # cassandra
 + [http://archive.apache.org/dist/cassandra/](http://archive.apache.org/dist/cassandra/)
