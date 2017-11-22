@@ -30,6 +30,11 @@ spring-data-cassandra 1.5.3->2.0.0
 + [Wrong pagination using Spring Data ElasticSearch 3.0.0.BUILD-SNAPSHOT with Elasticsearch 5.4.0](https://stackoverflow.com/q/45754909/4983501)
 + [the totalPages returns always 1](https://jira.spring.io/browse/DATAES-413)
 
++ suggest 查询的字段不存在的话  
+elasticsearch 2.4 => hits为0  
+elasticsearch 5.5.2 => illegal_argument_exception/no mapping found for field [xxx]  
+
+
 ### scripts
 + org.springframework.data.elasticsearch.core.ElasticsearchTemplate.doSearch(SearchRequestBuilder, SearchQuery) line: 900
 
