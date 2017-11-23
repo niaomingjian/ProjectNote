@@ -4,7 +4,8 @@
 
 ### Tricks
 + install a jar to local repository   
-`mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.2.0 -Dpackaging=jar -Dfile=e:\ojdbc6.jar`
+`mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.2.0 -Dpackaging=jar -Dfile=e:\ojdbc6.jar`  
+[Guide to installing 3rd party JARs](https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html)
 
 + maven打包时跳过测试  
 `mvn install -Dmaven.test.skip=true`  
