@@ -58,5 +58,7 @@ GCM是一个凭证帮助工具。它将你的凭证安全地存储在Windows凭�
     git config core.longpaths true
 ```
 
++ \.git\info\exclude
+
 ### References
 + [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
