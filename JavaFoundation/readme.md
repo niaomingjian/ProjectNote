@@ -12,6 +12,7 @@
 
 ### Logback
 + [Logback documentation](https://logback.qos.ch/documentation.html)
++ [Improved Java Logging with Mapped Diagnostic Context (MDC)](http://www.baeldung.com/mdc-in-log4j-2-logback)
 
 ### Java Foundation
 + [PATH and CLASSPATH](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html)
