@@ -3,8 +3,8 @@
 + [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.8.RELEASE/reference/htmlsingle/)
 
 
-### Servlet、JSP、Spring MVC
-#### Servlet and JSP
+## Servlet、JSP、Spring MVC
+### Servlet and JSP
 Java Servlet是Java开发Web应用的底层技术(1996年)。  
 JSP(JavaServer Pages)用来简化servlet的开发。  
 Web框架(如spring mvc)构建在Servlet和JSP之上。  
@@ -22,7 +22,7 @@ ServletResponse隐藏了向浏览器发送响应的复杂过程  
 ServletResponse.getWriter()  
 将一个应用程序同时部署到多个容器的分布式环境中 QQQ  
 
-#### Sessions
+### Sessions
 + 状态保持技术
   + URL重写
   + 隐藏域
@@ -38,7 +38,7 @@ HttpSession对象在用户第一次访问网站时自动被创建  
 可以将实现了java.io.Serializable的任何java对象放到HttpSession中  
 HttpSession的数据不会发送到客户端，只会通过URL或Cookies自动发送一个唯一标识  
 
-#### JavaServer Pages  
+### JavaServer Pages  
 Servlet/JSP容器  
 1.JSP页面转换为JSP页面实现类(Javax.servlet.jsp.JspPage接口或Javax.servlet.jsp.HttpJspPage)  
 2.Servlet/JSP容器编译Servlet该类  
@@ -74,7 +74,12 @@ JSP2.0推荐使用EL来访问服务器端对象且不写Java代码，而禁用�
   + include  
   + forward
 + include指令 pk include动作  
-  
+
+### 表达式语言
+EL用于编写免脚本的JSP页面  
+EL风格的隐式对象  
+
+### JSTL(JSP标准标签库)
 
 
 
