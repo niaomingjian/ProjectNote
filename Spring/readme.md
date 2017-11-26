@@ -39,7 +39,13 @@ HttpSession对象在用户第一次访问网站时自动被创建  
 HttpSession的数据不会发送到客户端，只会通过URL或Cookies自动发送一个唯一标识  
 
 #### JavaServer Pages  
-
+Servlet/JSP容器  
+1.JSP页面转换为JSP页面实现类(Javax.servlet.jsp.JspPage接口或Javax.servlet.jsp.HttpJspPage)  
+2.Servlet/JSP容器编译Servlet该类  
+jsp-api.jar  
+编写JSP页面时更关心Servlet API，而非JSP API  
+除了javax.servlet.jsp.tagext，很少直接使用 JSP API  
+JSP页面=模板数据+语法元素(如：'<%')  
 
 
 
@@ -50,6 +56,6 @@ HttpSession的数据不会发送到客户端，只会通过URL或Cookies自动�
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
 + [Eclipse写Servlet的时候总会遇到404](http://blog.csdn.net/u012966590/article/details/50032591)
-
-
++ [JSP Hello World Example using Eclipse IDE and Tomcat web server](http://www.srccodes.com/p/article/2/JSP-Hello-World-Program-using-Eclipse-IDE-and-Tomcat-web-server)
++ [How to Create Dynamic Web Project using Maven in Eclipse?](http://crunchify.com/how-to-create-dynamic-web-project-using-maven-in-eclipse/)
 
