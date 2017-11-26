@@ -4,6 +4,7 @@
 
 
 ### Servlet、JSP、Spring MVC
+#### Servlet and JSP
 Java Servlet是Java开发Web应用的底层技术(1996年)。  
 JSP(JavaServer Pages)用来简化servlet的开发。  
 Web框架(如spring mvc)构建在Servlet和JSP之上。  
@@ -16,7 +17,28 @@ servlet接口定义了servlet类与servlet容器之间的契约。  
 对于用户的一个请求，Servlet容器会调用Servlet的Service方法，并传入一个ServletRequest实例(http请求)和一个ServletResponse实例(http响应)。  
 ServletContext实例  
 线程安全性 java.util.concurrent.atomic包 QQQ  
+transient 修饰符   
+ServletResponse隐藏了向浏览器发送响应的复杂过程  
+ServletResponse.getWriter()  
+将一个应用程序同时部署到多个容器的分布式环境中 QQQ  
 
+#### Sessions
++ 状态保持技术
+  + URL重写
+  + 隐藏域
+  + cookies
+  + HTTPSession对象  
+
+隐藏域技术仅当网页有表单时有效  
+Cookies自动在浏览器和Web服务器之间交互，Cookies作为HTTP header的一部分  
+javax.servlet.http.Cookie类  
+一个用户有且最多有一个HttpSession  
+HttpSession对象在用户第一次访问网站时自动被创建  
+放入到HttpSession中的值是存储在内存中的  
+可以将实现了java.io.Serializable的任何java对象放到HttpSession中  
+HttpSession的数据不会发送到客户端，只会通过URL或Cookies自动发送一个唯一标识  
+
+#### JavaServer Pages  
 
 
 
