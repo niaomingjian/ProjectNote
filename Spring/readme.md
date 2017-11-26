@@ -40,10 +40,10 @@ HttpSession的数据不会发送到客户端，只会通过URL或Cookies自动�
 
 #### JavaServer Pages  
 Servlet/JSP容器  
-1.JSP页面转换为JSP页面实现类(Javax.servlet.jsp.JspPage接口或Javax.servlet.jsp.HttpJspPage)  
-2.Servlet/JSP容器编译Servlet该类  
-jsp-api.jar  
-编写JSP页面时更关心Servlet API，而非JSP API  
+1.JSP页面转换为JSP页面实现类(Javax.servlet.jsp.JspPage接口或Javax.servlet.jsp.HttpJspPage)  
+2.Servlet/JSP容器编译Servlet该类  
+jsp-api.jar  
+编写JSP页面时更关心Servlet API，而非JSP API  
 除了javax.servlet.jsp.tagext，很少直接使用 JSP API  
 JSP页面=模板数据+语法元素(如：'<%')  
 
