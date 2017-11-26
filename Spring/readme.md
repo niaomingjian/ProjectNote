@@ -46,10 +46,35 @@ jsp-api.jar
 编写JSP页面时更关心Servlet API，而非JSP API  
 除了javax.servlet.jsp.tagext，很少直接使用 JSP API  
 JSP页面=模板数据+语法元素(如：'<%')  
+JSP页面不同于Servlet的一点是：JSP不需要添加注解或在部署描述符中配置映射URL  
+page指令的import属性  
+JSP中有一些隐式对象可用(Servlet中本可以使用的一些对象等)  
+PageContext可以获取和设置四种范围的属性 QQQ  
++ JSP概念
+  + 指令
+  + 脚本元素
+  + 动作
+JSP的指令  
 
-
-
-
+定义在一个脚本程序中的变量可以被后续的脚本程序使用  
+'<%' => 脚本元素  
+'<%=' => 表达式  
+'<%!' => 可以声明能在JSP页面中使用的变量和方法  
+可以使用声明来重写JSP的init和destory方法  
+JSP2.0推荐使用EL来访问服务器端对象且不写Java代码，而禁用脚本元素  
+动作会被转换为Java代码来执行操作  
+自定义标签就属于动作的范畴  
++ 分离表示层和业务逻辑的手段  
+  + useBean动作
+  + 自定义标签
+  + 表达式语言  
++ 标准动作
+  + useBean
+  + setProperty/getProperty
+  + include  
+  + forward
++ include指令 pk include动作  
+  
 
 
 
