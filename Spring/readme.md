@@ -109,9 +109,13 @@ Decorator模式
 
 ### 安全
 如何截获数据包 QQQ  
-如何配置Tomcat使用JDBC来验证用户身份  
-
-
+如何配置Tomcat使用JDBC来验证用户身份  
+声明一个安全约束 => 只是简单地想保护资源不被未经授权的用户访问  
++ 身份验证方法  
+  由于使用声明式的安全约束元素的方式获取资源，因此可以使用  
+    + HTTP1.1提供的方案：基本访问认证和摘要访问身份验证
+    + 基于表单的访问认证  
+  
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
 + [Eclipse写Servlet的时候总会遇到404](http://blog.csdn.net/u012966590/article/details/50032591)
