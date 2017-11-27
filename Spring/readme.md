@@ -65,9 +65,9 @@ JSP2.0推荐使用EL来访问服务器端对象且不写Java代码，而禁用�
 动作会被转换为Java代码来执行操作  
 自定义标签就属于动作的范畴  
 + 分离表示层和业务逻辑的手段  
-  + useBean动作
-  + 自定义标签
-  + 表达式语言  
+  + useBean动作
+  + 自定义标签
+  + 表达式语言  
 + 标准动作
   + useBean
   + setProperty/getProperty
@@ -88,8 +88,18 @@ EL风格的隐式对象
   + ServletRequest
 + 添加监听器的方法
   + @WebListener
-  + 部署描述文档
-  
+  + 部署描述文档  
+AtomicInteger保证同步操作  
+HttpSessionAttributeListener和HttpSessionBindingListener的区别  
+如何给Session绑定属性 QQQ  
+
+### Filters  
+拦截Request请求  
+可用于日志记录，加解密，Session检查，图像文件保护  
+如何处理线程安全问题 QQQ  
+java.util.concurrent.ExecutorService  
+
+
 
 ###  修饰Request和Response
 ServletRequest and ServletRequestWrapper  
