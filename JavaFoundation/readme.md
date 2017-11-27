@@ -24,4 +24,5 @@ echo $JAVA_HOME [=>Linux]
   + class path(class search path)是JRE查找类和资源文件的路径。  
   + 命令行中-classpath option
 
++ [Override Java Methods on Instantiation - anonymous subclass](http://software.danielwatrous.com/override-java-methods-on-instantiation/)
 
