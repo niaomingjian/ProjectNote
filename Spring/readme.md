@@ -82,6 +82,12 @@ EL风格的隐式对象
 ### JSTL(JSP标准标签库)
 
 
+###  修饰Request和Response
+ServletRequest and ServletRequestWrapper  
+ServletResponse and ServletResponseWrapper  
+
+
+
 
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
