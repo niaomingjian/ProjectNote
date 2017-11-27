@@ -81,10 +81,23 @@ EL风格的隐式对象
 
 ### JSTL(JSP标准标签库)
 
+### 监听器
++ 监听器接口
+  + ServletContext
+  + HttpSession
+  + ServletRequest
++ 添加监听器的方法
+  + @WebListener
+  + 部署描述文档
+  
 
 ###  修饰Request和Response
 ServletRequest and ServletRequestWrapper  
 ServletResponse and ServletResponseWrapper  
+XXXWrapper用于修饰Servlet请求或响应  
+Decorator模式  
+
+
 
 
 
