@@ -85,7 +85,7 @@ EL风格的隐式对象
 + 监听器接口
   + ServletContext
   + HttpSession
-  + ServletRequest
+  + ServletRequest
 + 添加监听器的方法
   + @WebListener
   + 部署描述文档
