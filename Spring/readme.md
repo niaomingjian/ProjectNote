@@ -115,6 +115,9 @@ Decorator模式
   由于使用声明式的安全约束元素的方式获取资源，因此可以使用  
     + HTTP1.1提供的方案：基本访问认证和摘要访问身份验证
     + 基于表单的访问认证  
++ 基本访问身份验证(基本认证)  
+  接受用户名和密码的HTTP身份验证 401 未经授权 Base64算法 弱  
++ 摘要访问认证  
   
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
