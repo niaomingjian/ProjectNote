@@ -112,14 +112,32 @@ Decorator模式
 如何配置Tomcat使用JDBC来验证用户身份  
 声明一个安全约束 => 只是简单地想保护资源不被未经授权的用户访问  
 + 身份验证方法  
-  由于使用声明式的安全约束元素的方式获取资源，因此可以使用  
-    + HTTP1.1提供的方案：基本访问认证和摘要访问身份验证
+  由于使用声明式的安全约束元素的方式获取资源，因此可以使用  
+    + HTTP1.1提供的方案：基本访问认证和摘要访问身份验证(无法使用定制的登录表单)
     + 基于表单的访问认证  
 + 基本访问身份验证(基本认证)  
   接受用户名和密码的HTTP身份验证 401 未经授权 Base64算法 弱  
   可以利用[Wireshark(network protocol analyzer)](https://www.wireshark.org/)获取网络报文信息  
-+ 摘要访问认证  
-  
++ 摘要访问认证  
+  使用MD5算法创建一个组合用户名、域名、密码的哈希值  
++ 基于表单的认证  
+  会发送明文，所以应当和SSL配合使用  
++ 客户端证书认证  
+  适用于组织内部的应用  
+
+安全套接字(Secure Socket Layer)  
+对称加密不适合互联网  
++ 信息交互的双方互不知道  
++ 与各方沟通需要不同的秘钥
++ 需要确认对方的真实身份
++ 易被篡改  
+非对称加密  
++ 只有预期接受者能解密
++ 身份验证
++ 数据完整  
+
+
+
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
 + [Eclipse写Servlet的时候总会遇到404](http://blog.csdn.net/u012966590/article/details/50032591)
