@@ -116,8 +116,9 @@ Decorator模式
     + HTTP1.1提供的方案：基本访问认证和摘要访问身份验证
     + 基于表单的访问认证  
 + 基本访问身份验证(基本认证)  
-  接受用户名和密码的HTTP身份验证 401 未经授权 Base64算法 弱  
-+ 摘要访问认证  
+  接受用户名和密码的HTTP身份验证 401 未经授权 Base64算法 弱  
+  可以利用[Wireshark(network protocol analyzer)](https://www.wireshark.org/)获取网络报文信息  
++ 摘要访问认证  
   
 ### Tips
 + [Creating Servlet Example in Eclipse](https://www.javatpoint.com/creating-servlet-in-eclipse-ide)
