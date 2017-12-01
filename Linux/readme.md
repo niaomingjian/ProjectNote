@@ -17,4 +17,7 @@
 `export variable=value`  
 
 3. 查询文件位置  
-`whereis hazelcast.xml`
+`whereis hazelcast.xml`  
+
+4. PATH中追加路径  
+PATH=$PATH:~/opt/bin
