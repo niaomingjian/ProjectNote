@@ -13,3 +13,5 @@
 
 2. display environment variables  
 `env` or `set` (CentOS)  
+`echo $PATH`  
+`export variable=value`  
