@@ -15,3 +15,6 @@
 `env` or `set` (CentOS)  
 `echo $PATH`  
 `export variable=value`  
+
+3. 查询文件位置  
+`whereis hazelcast.xml`
