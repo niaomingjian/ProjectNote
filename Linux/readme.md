@@ -12,4 +12,4 @@
 `-c string` =>	If the -c flag is present then commands are read from string.
 
 2. display environment variables  
-`env` (CentOS)  
+`env` or `set` (CentOS)  
