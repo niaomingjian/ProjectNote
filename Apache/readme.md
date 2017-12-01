@@ -9,6 +9,13 @@ Threads(executors)
 n executor => 1 spout/bolt  
 task(spout/bolt)  
 
+Trident supports stateful stream processing, while pure Storm is a stateless processing framework.  
+To achieve exactly-once processing, Trident processes the input stream in small batches.  
+
+stream  
+batch  
+partition  
+group  
 
 
 
