@@ -20,4 +20,4 @@
 `whereis hazelcast.xml`  
 
 4. PATH中追加路径  
-PATH=$PATH:~/opt/bin
+export PATH=$PATH:~/opt/bin
