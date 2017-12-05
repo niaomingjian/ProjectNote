@@ -21,3 +21,6 @@
 
 4. PATH中追加路径  
 export PATH=$PATH:~/opt/bin
+
+### pssh
++ [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
