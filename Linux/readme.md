@@ -3,7 +3,7 @@
 2. [鸟哥的 Linux 私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php)
    + [YUM 线上升级机制](http://cn.linux.vbird.org/linux_basic/0520rpm_and_srpm.php#yumclient)
 
-## [ss64.com References](https://ss64.com/nt/syntax-args.html)
+## [ss64.com References](https://ss64.com/bash/)
 + [Redirection and Process Substitution](https://ss64.com/bash/syntax-redirection.html)  
   such as `command &`
 
@@ -20,7 +20,11 @@
 `whereis hazelcast.xml`  
 
 4. PATH中追加路径  
-export PATH=$PATH:~/opt/bin
+export PATH=$PATH:~/opt/bin  
+
+5. Extract the last 85 lines from a file:  
+$ tail -85 file,txt
+
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
