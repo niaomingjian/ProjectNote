@@ -23,7 +23,10 @@
 export PATH=$PATH:~/opt/bin  
 
 5. Extract the last 85 lines from a file:  
-$ tail -85 file,txt
+$ tail -85 file,txt  
+
+6. Count the number of lines in file1.txt  
+$ wc -l < file1.txt  
 
 
 ### pssh
