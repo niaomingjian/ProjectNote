@@ -28,6 +28,9 @@ $ tail -85 file,txt
 6. Count the number of lines in file1.txt  
 $ wc -l < file1.txt  
 
+7. Extract lines 40-50 from a file, first using head to get the first 50 lines then tail to get the last 10:  
+$ head -50 file.txt | tail -10  
+
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
