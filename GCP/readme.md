@@ -25,7 +25,11 @@
       + Configure read and write permissions on the device. For this example, grant write access to the device for all users.  
       `sudo chmod a+w /mnt/disks/[MNT_DIR]`  
   + add the persistent disk to the `/etc/fstab` file so that the device automatically mounts again when the instance restarts
-      
+    `blkid` command => find the UUID for the persistent disk  
+    `sudo blkid /dev/[DEVICE_ID]`  
+    Add the following code to `/etc/fstab` file  
+    `UUID=[UUID_VALUE] /mnt/disks/[MNT_DIR] ext4 discard,defaults,[NOFAIL] 0 2`  
+    
 
 
 ### 我的结算帐号
