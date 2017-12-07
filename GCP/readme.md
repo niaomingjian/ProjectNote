@@ -10,6 +10,23 @@
 
 ### Refs
 + [connecting-to-instance](https://cloud.google.com/compute/docs/instances/connecting-to-instance#sshingcloud)
++ [Adding a persistent disk to your instance](https://cloud.google.com/compute/docs/disks/add-persistent-disk#create_disk)
+  + Formatting and mounting a non-boot persistent disk  
+    最简单的是create a single ext4 file system without a partition table，好处是makes it simple to resize your disk later  
+    `sudo lsblk` => list the disks  
+      + mkfs tool => format the disk  
+      `-E` flag => maximize disk performance  
+      `-m 0` => use all of the available disk space  
+      `sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/[DEVICE_ID]`  
+      + Create a directory that serves as the mount point for the new disk  
+      `sudo mkdir -p /mnt/disks/[MNT_DIR]`  
+      + mount tool => mount the disk  
+      `sudo mount -o discard,defaults /dev/[DEVICE_ID] /mnt/disks/[MNT_DIR]`
+      + Configure read and write permissions on the device. For this example, grant write access to the device for all users.  
+      `sudo chmod a+w /mnt/disks/[MNT_DIR]`  
+  + add the persistent disk to the `/etc/fstab` file so that the device automatically mounts again when the instance restarts
+      
+
 
 ### 我的结算帐号
 https://console.cloud.google.com/billing/00D491-66E103-6F4A75?project=gcp20170324
