@@ -44,3 +44,6 @@ ng serve --host 0.0.0.0 --port 8080 --public publicipaddress  --disable-host-che
   [How To Install Git on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7)  
   `sudo yum install git`
 + [How to Install Pip on CentOS 7](https://www.liquidweb.com/kb/how-to-install-pip-on-centos-7/)  
+
+### Questions
++ 如何调整GCE的系统时间？
