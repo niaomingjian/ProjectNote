@@ -26,3 +26,4 @@ echo $JAVA_HOME [=>Linux]
 
 + [Override Java Methods on Instantiation - anonymous subclass](http://software.danielwatrous.com/override-java-methods-on-instantiation/)
 
++ [Missing artifact jdk.tools:jdk.tools:jar:1.8](https://stackoverflow.com/q/11118070/4983501)
