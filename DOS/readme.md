@@ -24,3 +24,7 @@ Running this in a directory in the command line
 # Notes
 + %\* 表示所有参数
 + %~dp0 表示脚本所在的目录的完整路径
++ cmd /V /E /C   
+  /V:ON => Enable delayed environment variable expansion  
+  /E:ON => Enable CMD Command Extensions (default)  
+  /C  => Run Command and then terminate  
