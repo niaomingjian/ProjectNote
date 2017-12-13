@@ -11,6 +11,8 @@
 `mvn install -Dmaven.test.skip=true`  
 `mvn install -DskipTests`  
 
++ `mvn install:install-file -DgroupId=jdk.tools -DartifactId=jdk.tools -Dpackaging=jar -Dversion=1.8 -Dfile=tools.jar -DgeneratePom=true`
+
 # Maven实战
 
 ### 建议
