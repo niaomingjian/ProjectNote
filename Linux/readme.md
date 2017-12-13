@@ -34,5 +34,8 @@ $ head -50 file.txt | tail -10
 8. 更改文件或目录的拥有者  
 `sudo chown -R cassandra:cassandra .`
 
+9. [top command 按Memory排序](https://unix.stackexchange.com/a/128957/208518)  
+Shift + M  
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
