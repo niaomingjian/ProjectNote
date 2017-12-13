@@ -31,6 +31,8 @@ $ wc -l < file1.txt
 7. Extract lines 40-50 from a file, first using head to get the first 50 lines then tail to get the last 10:  
 $ head -50 file.txt | tail -10  
 
+8. 更改文件或目录的拥有者  
+`sudo chown -R cassandra:cassandra .`
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
