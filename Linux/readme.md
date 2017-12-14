@@ -38,5 +38,10 @@ $ head -50 file.txt | tail -10
 Shift + M  
 Shift + F -> ↑ or ↓　-> S  
 
+10. 环境变量  
+`sudo vi ~/.bash_profile`  
+e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`  
+
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
