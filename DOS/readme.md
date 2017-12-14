@@ -28,3 +28,7 @@ Running this in a directory in the command line
   /V:ON => Enable delayed environment variable expansion  
   /E:ON => Enable CMD Command Extensions (default)  
   /C  => Run Command and then terminate  
++ PUTTY ssh连接  
+  `putty.exe -ssh -l <username> -i <privatekeyfile> <host>`  
+  `putty.exe -ssh <username>@<host> -i <privatekeyfile>`  
+  e.g. `putty.exe -ssh niaomingjian@35.200.100.50 -i nmj.ppk`  
