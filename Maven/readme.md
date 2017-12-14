@@ -1,6 +1,7 @@
 ### References
 + [POM Reference](https://maven.apache.org/pom.html)
 + [Maven CLI Options Reference](http://maven.apache.org/ref/3.1.0/maven-embedder/cli.html)
++ [Installing Apache Maven](http://maven.apache.org/install.html)
 
 ### Tricks
 + install a jar to local repository   
