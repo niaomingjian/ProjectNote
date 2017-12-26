@@ -42,6 +42,11 @@ Shift + F -> ↑ or ↓　-> S
 `sudo vi ~/.bash_profile`  
 e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`  
 
+11. [查看目录的总容量](http://cn.linux.vbird.org/linux_basic/0230filesystem_2.php)  
+`du -sh`
+
+12. 查看磁盘的使用情况  
+`df -h`
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
