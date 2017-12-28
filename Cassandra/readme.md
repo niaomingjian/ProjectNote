@@ -5,3 +5,6 @@
 ### Notes
 + Note: Non-system keyspaces don't have the same replication settings, effective ownership information is meaningless  
   => nodetool status **my_keyspace**
+
++ Provides statistics about tables  
+  => `nodetool cfstats <keyspace>.<table> ...  -H` 
