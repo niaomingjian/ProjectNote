@@ -7,4 +7,4 @@
   => nodetool status **my_keyspace**
 
 + Provides statistics about tables  
-  => `nodetool cfstats <keyspace>.<table> ...  -H` 
+  => [`nodetool cfstats <keyspace>.<table> ...  -H`](http://docs.datastax.com/en/cassandra/2.1/cassandra/tools/toolsCFstats.html)  
