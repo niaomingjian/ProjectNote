@@ -4,6 +4,10 @@
 + 2. 连接实例 docker  
  => gcloud compute ssh docker  
  需要再选择一下实例docker所在的zone  
++ 3. 切换账户  
+ `$ gcloud config set account <ACCOUNT>`
++ 4. 切换项目  
+ `gcloud config set project PROJECT_ID`
 
 ### 命令
 + gcloud compute instances list => 显示所有可用的实例  
