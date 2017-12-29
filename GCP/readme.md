@@ -9,7 +9,7 @@
 + 4. 切换项目  
  `gcloud config set project PROJECT_ID`
 
-### 命令
+### [命令 gcloud reference](https://cloud.google.com/sdk/gcloud/reference/)
 + gcloud compute instances list => 显示所有可用的实例  
 
 ### Refs
