@@ -50,4 +50,4 @@ ng serve --host 0.0.0.0 --port 8080 --public publicipaddress  --disable-host-che
 + [How to Install Pip on CentOS 7](https://www.liquidweb.com/kb/how-to-install-pip-on-centos-7/)  
 
 ### Questions
-+ 如何调整GCE的系统时间？
++ ~~如何调整GCE的系统时间？~~ Linux
