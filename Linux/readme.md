@@ -52,5 +52,9 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 `sudo grep -r VARIABLE /etc/*`
 `sudo grep -r VARIABLE ~/.*`
 
+14. [修改系统时区](https://www.cyberciti.biz/faq/centos-linux-6-7-changing-timezone-command-line/)  
+`sudo timedatectl set-timezone Asia/Shanghai`
+
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
