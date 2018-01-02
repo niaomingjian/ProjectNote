@@ -49,7 +49,7 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 `df -h`
 
 13. [查看环境变量定义在哪个文件中](https://unix.stackexchange.com/q/813/208518)  
-`sudo grep -r VARIABLE /etc/*`
+`sudo grep -r VARIABLE /etc/*`  
 `sudo grep -r VARIABLE ~/.*`
 
 14. [修改系统时区](https://www.cyberciti.biz/faq/centos-linux-6-7-changing-timezone-command-line/)  
