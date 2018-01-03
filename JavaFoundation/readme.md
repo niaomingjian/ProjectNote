@@ -29,7 +29,7 @@ echo $JAVA_HOME [=>Linux]
 + [Missing artifact jdk.tools:jdk.tools:jar:1.8](https://stackoverflow.com/q/11118070/4983501)
 
 ### Java8
-+ [Lambda表达式的含义及使用方法、方法引用](https://www.shiyanlou.com/courses/running)
++ [Java 8 新特性指南](https://www.shiyanlou.com/courses/539)
 + [方法引用(method referrance)](http://blog.csdn.net/wwwsssaaaddd/article/details/37573517)  
   方法引用-Lambda表达式的简写  
 
