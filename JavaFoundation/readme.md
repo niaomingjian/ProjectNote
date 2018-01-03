@@ -30,5 +30,6 @@ echo $JAVA_HOME [=>Linux]
 
 ### Java8
 + [Lambda表达式的含义及使用方法、方法引用](https://www.shiyanlou.com/courses/running)
-+ [方法引用(method referrance)](http://blog.csdn.net/wwwsssaaaddd/article/details/37573517)
++ [方法引用(method referrance)](http://blog.csdn.net/wwwsssaaaddd/article/details/37573517)  
+  方法引用-Lambda表达式的简写  
 
