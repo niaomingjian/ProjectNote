@@ -9,3 +9,7 @@
 + Provides statistics about tables  
   => [`nodetool cfstats <keyspace>.<table> ...  -H`](http://docs.datastax.com/en/cassandra/2.1/cassandra/tools/toolsCFstats.html)  
   => [`nodetool tablestats keyspace1.standard1`](https://docs.datastax.com/en/cassandra/3.0/cassandra/tools/toolsTablestats.html)
+  
++ [`nodetool cleanup`](https://docs.datastax.com/en/cassandra/3.0/cassandra/tools/toolsCleanup.html)  
+  Cleans up keyspaces and partition keys no longer belonging to a node  
+  
