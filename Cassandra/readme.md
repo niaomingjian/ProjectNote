@@ -13,3 +13,4 @@
 + [`nodetool cleanup`](https://docs.datastax.com/en/cassandra/3.0/cassandra/tools/toolsCleanup.html)  
   Cleans up keyspaces and partition keys no longer belonging to a node  
   
++ [Initializing a cluster](https://docs.datastax.com/en/cassandra/3.0/cassandra/initialize/initTOC.html)  
