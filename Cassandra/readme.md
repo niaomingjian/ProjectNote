@@ -14,6 +14,8 @@
   Cleans up keyspaces and partition keys no longer belonging to a node  
   
 + [Initializing a cluster](https://docs.datastax.com/en/cassandra/3.0/cassandra/initialize/initTOC.html)  
++ [Adding nodes to an existing cluster](https://docs.datastax.com/en/cassandra/3.0/cassandra/operations/opsAddNodeToCluster.html)
++ [Removing a node](https://docs.datastax.com/en/cassandra/3.0/cassandra/operations/opsRemoveNode.html)
 
 ### Practice! Practice! Practice!  
 + [Operations (From datastax)](https://docs.datastax.com/en/cassandra/3.0/cassandra/operations/operationsTOC.html)
