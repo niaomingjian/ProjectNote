@@ -14,6 +14,9 @@
 
 + `mvn install:install-file -DgroupId=jdk.tools -DartifactId=jdk.tools -Dpackaging=jar -Dversion=1.8 -Dfile=tools.jar -DgeneratePom=true`
 
++ pom.xml 中${basedir}的含义  
+[${basedir} represents the directory containing pom.xml](https://maven.apache.org/guides/getting-started/)
+
 # Maven实战
 
 ### 建议
