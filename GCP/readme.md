@@ -53,3 +53,4 @@ ng serve --host 0.0.0.0 --port 8080 --public publicipaddress  --disable-host-che
 
 ### Questions
 + ~~如何调整GCE的系统时间？~~ Linux
++ 如何使用脚本直接创建一个虚机并安装一些软件
