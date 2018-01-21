@@ -2,6 +2,7 @@
 + [POM Reference](https://maven.apache.org/pom.html)
 + [Maven CLI Options Reference](http://maven.apache.org/ref/3.1.0/maven-embedder/cli.html)
 + [Installing Apache Maven](http://maven.apache.org/install.html)
++ [How to Install Apache Maven 3.5 on CentOS 7](https://www.vultr.com/docs/how-to-install-apache-maven-3-5-on-centos-7)
 
 ### Tricks
 + install a jar to local repository   
