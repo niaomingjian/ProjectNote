@@ -18,6 +18,8 @@
 + pom.xml 中${basedir}的含义  
 [${basedir} represents the directory containing pom.xml](https://maven.apache.org/guides/getting-started/)
 
++ [Setting the -source and -target of the Java Compiler](https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html)
+
 # Maven实战
 
 ### 建议
