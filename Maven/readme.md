@@ -20,6 +20,9 @@
 
 + [Setting the -source and -target of the Java Compiler](https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html)
 
+### ERROR
++ [ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK
+
 # Maven实战
 
 ### 建议
