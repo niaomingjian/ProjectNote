@@ -21,7 +21,9 @@
 + [Setting the -source and -target of the Java Compiler](https://maven.apache.org/plugins/maven-compiler-plugin/examples/set-compiler-source-and-target.html)
 
 ### ERROR
-+ [ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK
++ [ERROR] No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK  
+=> JAVA_HOME 要使用JDK目录，而不是JRE目录  
+=> 使用git Bash时要注意，从文件管理器的快捷菜单打开的git bash使用的还是旧的环境变量。重新启动一个得到的就是新的环境变量。  
 
 # Maven实战
 
