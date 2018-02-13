@@ -63,3 +63,4 @@ GCM是一个凭证帮助工具。它将你的凭证安全地存储在Windows凭�
 
 ### References
 + [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
++ [How to install latest version of git on CentOS 6.x/7.x](https://stackoverflow.com/a/27674776/4983501)
