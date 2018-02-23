@@ -12,3 +12,4 @@
 
 ### Tutorial Links
 + [Guide to Spring @Autowired](http://www.baeldung.com/spring-autowire)
++ [Spring dependency injection – @Configurable](https://tamasgyorfi.net/2013/11/13/spring-dependency-injection-configurable/)
