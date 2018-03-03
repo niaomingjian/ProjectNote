@@ -31,6 +31,10 @@ echo $JAVA_HOME [=>Linux]
 
 + [Missing artifact jdk.tools:jdk.tools:jar:1.8](https://stackoverflow.com/q/11118070/4983501)
 
++ [how to run an executable jar on console?](http://www.cnblogs.com/niaomingjian/p/8495855.html)  
+  `java -cp <jar name> <main class name>`
+
+
 ### Java8
 + [Java 8 新特性指南 - 实验楼](https://www.shiyanlou.com/courses/539)
 + [方法引用(method referrance)](http://blog.csdn.net/wwwsssaaaddd/article/details/37573517)  
