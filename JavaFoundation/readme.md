@@ -1,5 +1,6 @@
 ### Oracle Java
 + [Javase tutorial website](https://docs.oracle.com/javase/tutorial/index.html)
++ [Github - Core Java Cookbooks and Examples](https://github.com/eugenp/tutorials/tree/master/core-java)
 
 ### Jackson
 + [Jackson](https://github.com/FasterXML/jackson-docs)  
