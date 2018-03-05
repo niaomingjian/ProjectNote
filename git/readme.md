@@ -1,6 +1,6 @@
 ### Git References
 + [Atlassian git reference](https://www.atlassian.com/git)
-+ [https://www.backlog.jp/git-guide/](https://www.backlog.jp/git-guide/)
++ [https://backlog.com/git-tutorial/cn//](https://backlog.com/git-tutorial/cn/)
 
 
 ### TortoiseGit
