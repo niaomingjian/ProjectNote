@@ -13,3 +13,6 @@
 ### Tutorial Links
 + [Guide to Spring @Autowired](http://www.baeldung.com/spring-autowire)
 + [Spring dependency injection – @Configurable](https://tamasgyorfi.net/2013/11/13/spring-dependency-injection-configurable/)
+
+### Spring Docs
++ [The IoC container](https://docs.spring.io/spring/docs/4.3.15.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/#beans)
