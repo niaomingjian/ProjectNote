@@ -12,3 +12,5 @@
   这句中通常会加上**of**
 
 ### [Google Ngram Viewer](https://books.google.com/ngrams)
+
++ Compose, comprise, consist ???
