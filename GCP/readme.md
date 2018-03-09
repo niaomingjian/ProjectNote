@@ -7,10 +7,12 @@
 + 3. 切换账户  
  `$ gcloud config set account <ACCOUNT>`
 + 4. 切换项目  
- `gcloud config set project PROJECT_ID`
+ `$ gcloud config set project PROJECT_ID`
 + 5. 配置SSH keys  
   [How to ssh a gce VM from another gce VM](https://stackoverflow.com/a/47924294/4983501)
-  
++ 6. 显示激活的配置信息（当时配置的账户）  
+  `$ gcloud config list`
+  
 ### [命令 gcloud reference](https://cloud.google.com/sdk/gcloud/reference/)
 + gcloud compute instances list => 显示所有可用的实例  
 
