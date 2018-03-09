@@ -32,3 +32,5 @@ Running this in a directory in the command line
   `putty.exe -ssh -l <username> -i <privatekeyfile> <host>`  
   `putty.exe -ssh <username>@<host> -i <privatekeyfile>`  
   e.g. `putty.exe -ssh niaomingjian@35.200.100.50 -i nmj.ppk`  
++ [命令行设置持久性的环境变量](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/) setx.exe  
+  e.g. `setx EC2_CERT "%USERPROFILE%\aws\cert.pem"`  
