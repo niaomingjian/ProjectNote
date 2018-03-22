@@ -5,4 +5,5 @@
 5. [Class.forName(className, true, urlClassLoader)作用是什么？](https://github.com/niaomingjian/java-workspace/blob/c928704cd4e4b8b0e7aa0911dfea7348b7e50a87/classloader-two-related-class/classloader-two-related-class-main/src/main/java/com/nmj/classloader/JarClassLoader.java#L42)
 6. [Java中，从数组的for循环中可以break。集合的for循环可以break吗？ 都可以](https://github.com/niaomingjian/java-workspace/blob/develop/java-for-loop/src/main/java/com/nmj/forloop/MainClass.java)  
 7. [void java.lang.Iterable.forEach(Consumer<? super T> action)中不能break](https://github.com/niaomingjian/java-workspace/blob/d33d17bfc6ac9d604308ed6c99e62dfa3139fd4c/java-for-loop/src/main/java/com/nmj/forloop/MainClass.java#L50)
-8. 
+8. Java泛型各种表示的含义？<? super T>, < extends >  
+9. 
