@@ -6,4 +6,5 @@
 6. [Java中，从数组的for循环中可以break。集合的for循环可以break吗？ 都可以](https://github.com/niaomingjian/java-workspace/blob/develop/java-for-loop/src/main/java/com/nmj/forloop/MainClass.java)  
 7. [void java.lang.Iterable.forEach(Consumer<? super T> action)中不能break](https://github.com/niaomingjian/java-workspace/blob/d33d17bfc6ac9d604308ed6c99e62dfa3139fd4c/java-for-loop/src/main/java/com/nmj/forloop/MainClass.java#L50)
 8. Java泛型各种表示的含义？<? super T>, < extends >  
-9. 
+9. org.apache.maven.archetypes:maven-archetype-quickstart 默认生成的maven项目使用的是JDK1.5。如何配置自动生成时就使用其他版本?  
+10.  
