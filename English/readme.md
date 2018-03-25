@@ -11,6 +11,9 @@
   返回的RDD元素是CassandraRow类型。  
   这句中通常会加上**of**
 
++ display and show  
+
+
 ### [Google Ngram Viewer](https://books.google.com/ngrams)
 
 + Compose, comprise, consist ???
