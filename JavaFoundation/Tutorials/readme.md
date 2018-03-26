@@ -8,4 +8,6 @@
 
 ## [The Java® Language Specification](https://docs.oracle.com/javase/specs/jls/se8/html/index.html)
 
-### [Chapter 12. Execution](https://docs.oracle.com/javase/specs/jls/se8/html/jls-12.html#jls-12.4.2)
+### [Chapter 11. Exceptions](https://docs.oracle.com/javase/specs/jls/se8/html/jls-11.html)
+
+### [Chapter 12. Execution](https://docs.oracle.com/javase/specs/jls/se8/html/jls-12.html)
