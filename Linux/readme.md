@@ -58,7 +58,17 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 15. [语系(Locale)](http://cn.linux.vbird.org/linux_basic/0320bash.php#variable_locale)  
 `locale -a`  
 `LANG=zh_CN.UTF-8`  
-`echo $LANG`
+`echo $LANG`  
+
+16. [如何调整Linux系统为正确时区](https://www.sysgeek.cn/change-timezone-linux/)  
+`tzselect` - 找到需要的时区  
+`export TZ='Asia/Shanghai'`  
+`source ~/.bashrc`  
+或  
+`sudo rm -f /etc/localtime`  
+`sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`  
+或  
+`sudo timedatectl set-timezone 'Asia/Shanghai'`  
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
