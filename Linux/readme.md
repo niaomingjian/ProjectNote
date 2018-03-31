@@ -57,8 +57,8 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 
 15. [语系(Locale)](http://cn.linux.vbird.org/linux_basic/0320bash.php#variable_locale)  
 `locale -a`  
-
-
+`LANG=zh_CN.UTF-8`  
+`echo $LANG`
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
