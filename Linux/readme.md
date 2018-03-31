@@ -55,6 +55,8 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 14. [修改系统时区](https://www.cyberciti.biz/faq/centos-linux-6-7-changing-timezone-command-line/)  
 `sudo timedatectl set-timezone Asia/Shanghai`
 
+15. [语系(Locale)的支持](http://cn.linux.vbird.org/linux_basic/0160startlinux.php#cmd_cmd_lang)  
+
 
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
