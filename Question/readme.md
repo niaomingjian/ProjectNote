@@ -12,4 +12,5 @@
 12. Java中equals方法如何coding？  
 13. VB中.vbp文件中有references和objects定义，它们是什么？  
 14. 学习Spring的StopWatch，写自己的StopWatch  
-15.   
+15. 内部class定义为public static final class，那么static和final关键字的含义是什么？（比如StopWatch中的TaskInfo）  
+16.   
