@@ -15,4 +15,5 @@
 15. 内部class定义为public static final class，那么static和final关键字的含义是什么？（比如StopWatch中的TaskInfo）  
 16. Windows中新建Java项目时，类文件的行结束符是使用CRLF还LF？应该怎么决定如何使用使用行结束符呢？  
 17. [Eclipse中执行Maven命令时控制台输出乱码](https://www.cnblogs.com/luotaoyeah/p/3788612.html)  
-18.   
+18. ★编码，乱码一直困扰着自己 ？？？  
+19.   
