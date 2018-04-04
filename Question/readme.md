@@ -17,4 +17,5 @@
 17. [Eclipse中执行Maven命令时控制台输出乱码](https://www.cnblogs.com/luotaoyeah/p/3788612.html)  
 18. ★编码，乱码一直困扰着自己 ？？？  
 19. Java中volatile关键字的作用？比如private volatile Config config; [Guide to Volatile Keyword in Java](http://www.baeldung.com/java-volatile)  
-20.   
+20. Java中HashMap和HashTable的使用场景分别是什么？  
+21.   
