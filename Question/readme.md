@@ -16,5 +16,5 @@
 16. Windows中新建Java项目时，类文件的行结束符是使用CRLF还LF？应该怎么决定如何使用使用行结束符呢？  
 17. [Eclipse中执行Maven命令时控制台输出乱码](https://www.cnblogs.com/luotaoyeah/p/3788612.html)  
 18. ★编码，乱码一直困扰着自己 ？？？  
-19. Java中volatile关键字作用？比如private volatile Config config;  
+19. Java中volatile关键字的作用？比如private volatile Config config; [Guide to Volatile Keyword in Java](http://www.baeldung.com/java-volatile)  
 20.   
