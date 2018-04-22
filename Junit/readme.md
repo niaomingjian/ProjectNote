@@ -10,3 +10,4 @@ LOGICBIG.COM)](http://www.logicbig.com/tutorials/unit-testing/junit/)
 2. [Spring Boot testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
 #
 1. [Mockito](https://static.javadoc.io/org.mockito/mockito-core/2.18.3/org/mockito/Mockito.html)
+2. [5 Minute Mockito](https://dzone.com/articles/5-minute-mockito-tutorial-howto)
