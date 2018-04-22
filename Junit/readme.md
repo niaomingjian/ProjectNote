@@ -8,3 +8,5 @@ LOGICBIG.COM)](http://www.logicbig.com/tutorials/unit-testing/junit/)
 #
 1. [Spring testing](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#testing-resources)
 2. [Spring Boot testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
+#
+1. [Mockito](https://static.javadoc.io/org.mockito/mockito-core/2.18.3/org/mockito/Mockito.html)
