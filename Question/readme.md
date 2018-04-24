@@ -18,4 +18,5 @@
 18. ★编码，乱码一直困扰着自己 ？？？  
 19. Java中volatile关键字的作用？比如private volatile Config config; [Guide to Volatile Keyword in Java](http://www.baeldung.com/java-volatile)  
 20. Java中HashMap和HashTable的使用场景分别是什么？  
-21.   
+21. Angular中，@Input变量输入的值与该变量在ngOnInit中赋予的值，这两个值的先后关系是什么？谁会覆盖谁？@Input覆盖ngOnInit?  
+22.   
