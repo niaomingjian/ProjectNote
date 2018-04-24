@@ -52,6 +52,9 @@ ng serve --host 0.0.0.0 --port 8080 --public publicipaddress  --disable-host-che
   [How To Install Git on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-centos-7)  
   `sudo yum install git`
 + [How to Install Pip on CentOS 7](https://www.liquidweb.com/kb/how-to-install-pip-on-centos-7/)  
++ GCE 上安装GUI
+  + [Your desktop on Google Cloud Platform](https://medium.com/google-cloud/linux-gui-on-the-google-cloud-platform-800719ab27c5)
+  + [Install TightVNC Server in RHEL/CentOS and Fedora to Access Remote Desktops](https://www.tecmint.com/install-tightvnc-remote-desktop/)
 
 ### Questions
 + ~~如何调整GCE的系统时间？~~ Linux
