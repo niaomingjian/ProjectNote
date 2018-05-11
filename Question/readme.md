@@ -21,4 +21,5 @@
 21. Angular中，@Input变量输入的值与该变量在ngOnInit中赋予的值，这两个值的先后关系是什么？谁会覆盖谁？@Input覆盖ngOnInit?  
 22. IDEA的Maven Projects窗口中maven依赖存在时为什么还是显示红色下划波浪线？  
 23. lombok可以简化哪些工作？做一个具体的例子应用。  
-24.   
+24. ReentrantLock例子  
+25.   
