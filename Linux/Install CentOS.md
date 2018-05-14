@@ -8,5 +8,6 @@
 3. 在实体机上安装  
 
 #### 参考
-http://www.runoob.com/linux/linux-install.html  
-http://cn.linux.vbird.org/linux_basic/0157installcentos5_2.php
++ http://www.runoob.com/linux/linux-install.html  
++ http://cn.linux.vbird.org/linux_basic/0157installcentos5_2.php  
++ [CentOS 7之下载、制作U盘系统盘篇](https://blog.csdn.net/qq_26525215/article/details/52527833)
