@@ -23,4 +23,5 @@
 23. lombok可以简化哪些工作？做一个具体的例子应用。  
 24. ReentrantLock例子  
 25. Excel批量删除空白行  
-26.   
+26. Junit如何并行执行test class？test class都是顺序执行的吗？  
+27.   
