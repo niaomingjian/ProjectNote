@@ -11,3 +11,4 @@
 + http://www.runoob.com/linux/linux-install.html  
 + http://cn.linux.vbird.org/linux_basic/0157installcentos5_2.php  
 + [CentOS 7之下载、制作U盘系统盘篇](https://blog.csdn.net/qq_26525215/article/details/52527833)
++ [Win7上装CentOS7 双系统](https://www.cnblogs.com/uptothesky/p/6046769.html)
