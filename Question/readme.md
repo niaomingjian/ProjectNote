@@ -24,4 +24,5 @@
 24. ReentrantLock例子  
 25. Excel批量删除空白行  
 26. Junit如何并行执行test class？test class都是顺序执行的吗？  
-27.   
+27. IDEA run history? view the previous running  
+28.  
