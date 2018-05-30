@@ -73,6 +73,9 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 17. Linux命令之后的选项除了带有减号『-』之外，某些特殊情况下， 选项或参数前面也会带有正号  
 `date +%Y/%m/%d`  
 
+18. 指定路径查找文件  
+`find /specify/path -name adf-csv*`
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
 
