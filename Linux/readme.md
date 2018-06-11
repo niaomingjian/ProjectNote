@@ -76,6 +76,8 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 18. 指定路径查找文件  
 `find /specify/path -name adf-csv*`
 
+19. [Linux 技巧：让进程在后台可靠运行的几种方法](https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/)
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
 
