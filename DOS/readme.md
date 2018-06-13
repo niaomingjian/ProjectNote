@@ -35,4 +35,5 @@ Running this in a directory in the command line
 + [命令行设置持久性的环境变量](http://www.dowdandassociates.com/blog/content/howto-set-an-environment-variable-in-windows-command-line-and-registry/) setx.exe  
   e.g. `setx EC2_CERT "%USERPROFILE%\aws\cert.pem"`  
 + 显示目录树结构  
-  `tree`
+  `tree`  
+  `tree /F` Displays file names in each directory  
