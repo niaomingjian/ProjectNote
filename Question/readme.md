@@ -24,5 +24,6 @@
 24. ReentrantLock例子  
 25. Excel批量删除空白行  
 26. Junit如何并行执行test class？test class都是顺序执行的吗？  
-27. IDEA run history? view the previous running  
-28.  
+27. IDEA run history? view the previous running  Pin Tab
+28. Maven remote库中的jar更新了，但是version没有改变，怎么在IDEA中执行来取到最新的jar?  
+29.  
