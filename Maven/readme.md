@@ -5,6 +5,9 @@
 + [How to Install Apache Maven 3.5 on CentOS 7](https://www.vultr.com/docs/how-to-install-apache-maven-3-5-on-centos-7)
 + [Frequently Asked Technical Questions](https://maven.apache.org/general.html)
 
+### Nexus
++ [Repository Manager 2](https://help.sonatype.com/repomanager2)
+
 ### Tricks
 + install a jar to local repository   
 `mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.2.0 -Dpackaging=jar -Dfile=e:\ojdbc6.jar`  
