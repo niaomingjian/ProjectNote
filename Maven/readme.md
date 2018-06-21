@@ -7,6 +7,7 @@
 
 ### Nexus
 + [Repository Manager 2](https://help.sonatype.com/repomanager2)
++ [Using the User Interface - Uploading Components](https://help.sonatype.com/repomanager2/using-the-user-interface/uploading-components)
 
 ### Tricks
 + install a jar to local repository   
