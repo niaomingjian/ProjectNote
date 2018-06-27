@@ -26,4 +26,5 @@
 26. Junit如何并行执行test class？test class都是顺序执行的吗？  
 27. IDEA run history? view the previous running  使用Pin Tab来固定执行过的窗口  
 28. Maven remote库中的jar更新了，但是version没有改变，怎么在IDEA中执行来取到最新的jar?  
-29.  
+29. host=centos.c.ornate-shine-192301.internal how to change it?  
+30.  
