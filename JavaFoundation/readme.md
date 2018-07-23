@@ -18,6 +18,9 @@
 + [Logback documentation](https://logback.qos.ch/documentation.html)
 + [Improved Java Logging with Mapped Diagnostic Context (MDC)](http://www.baeldung.com/mdc-in-log4j-2-logback)
 
+### args4j
++ args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application
+
 ### Java Foundation
 + [PATH and CLASSPATH](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html)
 ```
