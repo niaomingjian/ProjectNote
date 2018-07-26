@@ -78,6 +78,9 @@ e.g. `export PATH=/opt/apache-maven-3.3.9/bin:$PATH`
 
 19. [Linux 技巧：让进程在后台可靠运行的几种方法](https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/)
 
+20. linux中如何查看某一进程的启动时间  
+`ps -p PID -o lstart`
+
 ### pssh
 + [pssh(1) - Linux man page](https://linux.die.net/man/1/pssh)
 
