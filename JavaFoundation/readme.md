@@ -5,6 +5,7 @@
 ### Jackson
 + [Jackson](https://github.com/FasterXML/jackson-docs)  
 + [Java JSON Jackson Introduction](http://www.studytrails.com/java/json/java-jackson-introduction/)  
++ [How to pretty print JSON string using Jackson?](https://kodejava.org/how-to-pretty-print-json-string-using-jackson/)
 
 ### How to Use Java BigDecimal
 + [How to Use Java BigDecimal: A Tutorial](http://www.opentaps.org/docs/index.php/How_to_Use_Java_BigDecimal:_A_Tutorial)  
