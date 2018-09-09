@@ -4,5 +4,6 @@
 3. [COUNTIF function](https://support.office.com/en-us/article/countif-function-e0de10c6-f885-4e71-abb4-1f464816df34)
 4. 
 
-### References
-1. [Size of an Array](https://www.excel-easy.com/vba/examples/size-of-an-array.html)
+### References VBA
+1. [Size of an Array](https://www.excel-easy.com/vba/examples/size-of-an-array.html)  
+2. [microsoft office vba](https://docs.microsoft.com/en-us/office/vba/api/excel.workbooks.open)  
