@@ -19,6 +19,9 @@
 + [Logback documentation](https://logback.qos.ch/documentation.html)
 + [Improved Java Logging with Mapped Diagnostic Context (MDC)](http://www.baeldung.com/mdc-in-log4j-2-logback)
 
+### Log4j2
++ [log4j2-example-tutorial](https://www.journaldev.com/7128/log4j2-example-tutorial-configuration-levels-appenders)
+
 ### Java class library
 + args4j - args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application
 + Lombok - Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
