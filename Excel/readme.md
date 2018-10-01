@@ -7,3 +7,4 @@
 ### References VBA
 1. [Size of an Array](https://www.excel-easy.com/vba/examples/size-of-an-array.html)  
 2. [microsoft office vba](https://docs.microsoft.com/en-us/office/vba/api/excel.workbooks.open)  
+3. [functions-visual-basic-for-applications](https://docs.microsoft.com/en-us/office/vba/language/reference/functions-visual-basic-for-applications)
