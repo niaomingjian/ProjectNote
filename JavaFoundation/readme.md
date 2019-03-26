@@ -34,6 +34,8 @@ Never write another getter or equals method again. Early access to future java f
 echo %JAVA_HOME% [=>Windows]
 echo $JAVA_HOME [=>Linux]
 ```
++ [Setting the class path](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/classpath.html)
+
 + [2 Setting the Class Path](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/classpath.html)  
   + class path(class search path)是JRE查找类和资源文件的路径。  
   + 命令行中-classpath option
