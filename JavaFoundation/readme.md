@@ -51,3 +51,5 @@ echo $JAVA_HOME [=>Linux]
 + [方法引用(method referrance)](http://blog.csdn.net/wwwsssaaaddd/article/details/37573517)  
   方法引用-Lambda表达式的简写  
 
+### Java Regular Expression
++ [Lesson: Regular Expressions](https://docs.oracle.com/javase/tutorial/essential/regex/)
