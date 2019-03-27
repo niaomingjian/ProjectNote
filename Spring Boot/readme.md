@@ -17,3 +17,7 @@
 ### Spring Docs
 + [The IoC container](https://docs.spring.io/spring/docs/4.3.15.BUILD-SNAPSHOT/spring-framework-reference/htmlsingle/#beans)
 + [Cache Abstraction](https://docs.spring.io/spring/docs/current/spring-framework-reference/integration.html#cache)
+
+
+#### Configuration
+`-Dspring.config.location=customconfigfolder\application.yml`
