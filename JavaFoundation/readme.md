@@ -46,6 +46,10 @@ echo $JAVA_HOME [=>Linux]
 
 + [how to run an executable jar on console?](http://www.cnblogs.com/niaomingjian/p/8495855.html)  
   `java -cp <jar name> <main class name>`
+  
+#### java -jar
++ [Launches a Java application](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/java.html)  
+When you use the -jar option, the specified JAR file is the source of all user classes, and other class path settings are ignored.
 
 
 ### Java8
