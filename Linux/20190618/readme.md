@@ -16,4 +16,6 @@ systemd daemon
 
 `subcription-manager`  
 
+`cat /etc/redhat-release`  
+CentOS Linux release 7.5.1804 (Core)  
 
