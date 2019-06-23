@@ -19,3 +19,7 @@ systemd daemon
 `cat /etc/redhat-release`  
 CentOS Linux release 7.5.1804 (Core)  
 
+
+
+###Q
+1. centos7 没有subscription-manager命令？  
