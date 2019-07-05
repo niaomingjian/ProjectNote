@@ -1,7 +1,8 @@
 # References
 + [Spring Framework Reference Documentation](https://docs.spring.io/spring/docs/4.3.12.RELEASE/spring-framework-reference/htmlsingle/)
-+ [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.8.RELEASE/reference/htmlsingle/)
-
++ [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/1.5.8.RELEASE/reference/htmlsingle/)  
++ [Properties with Spring and Spring Boot](https://www.baeldung.com/properties-with-spring)  
++ [Spring Expression Language Guide](https://www.baeldung.com/spring-expression-language)  
 
 ## Servlet、JSP、Spring MVC
 ### Servlet and JSP
