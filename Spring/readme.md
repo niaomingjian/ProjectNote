@@ -8,6 +8,7 @@
 ## draft
 EmbeddedDatabaseType(spring-jdbc)  
 ClassUtils(spring-core)  
+DefaultResourceLoader(spring-core)  
 
 ## Servlet、JSP、Spring MVC
 ### Servlet and JSP
