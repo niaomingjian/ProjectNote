@@ -5,6 +5,10 @@
 + [Spring Expression Language Guide](https://www.baeldung.com/spring-expression-language)  
 + [Dependencies](https://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch04s03.html)  
 
+### draft
+EmbeddedDatabaseType  
+
+
 ## Servlet、JSP、Spring MVC
 ### Servlet and JSP
 Java Servlet是Java开发Web应用的底层技术(1996年)。  
