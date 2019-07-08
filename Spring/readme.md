@@ -5,9 +5,9 @@
 + [Spring Expression Language Guide](https://www.baeldung.com/spring-expression-language)  
 + [Dependencies](https://docs.spring.io/spring/docs/3.0.0.M3/reference/html/ch04s03.html)  
 
-### draft
-EmbeddedDatabaseType  
-
+## draft
+EmbeddedDatabaseType(spring-jdbc)  
+ClassUtils(spring-core)  
 
 ## Servlet、JSP、Spring MVC
 ### Servlet and JSP
